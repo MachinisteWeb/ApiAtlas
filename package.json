@@ -1,0 +1,29 @@
+{
+  "name": "api-atlas",
+  "version": "0.1.0",
+  "author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
+  "description": "Exemple d'API distante REST avec NodeAtlas.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Haeresis/ApigAtlas.git"
+  },
+  "license": {
+    "type": "GPLv2",
+    "url": "https://github.com/Haeresis/ApigAtlas/LICENSE"
+  },
+  "bugs": {
+    "url": "https://github.com/Haeresis/ApigAtlas/issues"
+  },
+  "dependencies": {
+    "cookie": "0.1.2",
+    "connect-redis": "2.1.x",
+    "marked": "0.3.x",
+    "mongoose": "3.8.x",
+    "guid": "0.0.12"
+  },
+  "engines": {
+    "node": ">=0.10.10"
+  },
+  "readmeFilename": "README.md"
+}

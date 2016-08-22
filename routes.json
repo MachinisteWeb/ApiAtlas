@@ -1,0 +1,79 @@
+{
+	"/comments/(:id/)?": {
+		"template": "default.htm",
+		"variation": "comments.json",
+		"controller": "comments.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/comments/:id/": {
+		"template": "default.htm",
+		"variation": "comments.json",
+		"controller": "delete-comment.js",
+		"deleteSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/comments/:id/": {
+		"template": "default.htm",
+		"variation": "comments.json",
+		"controller": "update-comment.js",
+		"putSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/comments/": {
+		"template": "default.htm",
+		"variation": "comments.json",
+		"controller": "create-comment.js",
+		"postSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/cv/(:subpart/)?": {
+		"template": "default.htm",
+		"variation": "cv.json",
+		"controller": "cv.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/blog/articles/": {
+		"template": "default.htm",
+		"controller": "blog/articles.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/blog/categories/": {
+		"template": "default.htm",
+		"controller": "blog/categories.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/": {
+		"template": "index.htm",
+		"controller": "index.js",
+		"getSupport": true
+	},
+	"/page-inexistante/": {
+		"redirect": "/",
+		"statusCode": 302
+	}
+}

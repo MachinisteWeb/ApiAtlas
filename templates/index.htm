@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lesieur's API</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container">
+                <h1>API Atlas</h1>
+                <p>API Atlas is an example of distant API provided with NodeAtlas.</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2>API's List</h2>
+            <ul>
+                <li>
+                    <h3>CV (JSON Example)</h3>
+                    `GET /api/cv/`
+                </li>
+                <li>
+                    <h3>Blog (MongoDB example)</h3>
+                    <ul>
+                        <li>`GET /api/blog/categories/`</li>
+                        <li>`GET /api/blog/articles/`</li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>REST Example</h3>
+                    `GET /api/comments/`
+                    <ul>
+                        <li>`GET /api/comments/:id/`</li>
+                        <li>`POST /api/comments/` (variable: message)</li>
+                        <li>`PUT /api/comments/:id/` (variable: message)</li>
+                        <li>`DELETE /api/comments/`:id/</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Example</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>Client Side - with Vanilla JS</h3>
+                    <p>`GET http://www.lesieur.name/api/comments/` </p>
+                    <h4>Code</h4>
+                    <pre><code class="js">/* jslint browser: true */
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "http://www.lesieur.name/api/comments/", true);
+xhr.addEventListener("readystatechange", function () {
+    var commentsArea = document.getElementsByClassName("comments")[0],
+        comments;
+
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        comments = JSON.parse(xhr.responseText);
+        comments.forEach(function (comment) {
+            var group = document.createElement("li"),
+                title = document.createElement("h4"),
+                paragraph = document.createElement("p");
+
+            title.textContent = comment.id;
+            paragraph.textContent = comment.message;
+
+            group.appendChild(title);
+            group.appendChild(paragraph);
+            commentsArea.appendChild(group);
+        });
+    }
+});
+xhr.send(null);</code></pre>
+                    <h4>Result</h4>
+                    <ul class="comments">
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Server Side - with NodeAtlas</h3>
+                    <p>`GET http://www.lesieur.name/api/comments/` </p>
+                    <h4>Code</h4>
+                    <pre><code class="js">/* jslint node: true, esversion: 6 */
+exports.changeVariation = function (params, mainCallback) {
+    var NA = this,
+        variation = params.variation,
+        http = NA.modules.http,
+        result = "";
+
+    http.get({
+        hostname: "www.lesieur.name",
+        port: 80,
+        path: "/api/comments/",
+        agent: false
+    }, function (response) {
+        response.on("data", function (chunk) {
+            JSON.parse(chunk).forEach(function (comment) {
+                result += `&lt;div&gt;
+                    &lt;h4&gt;
+                        ${comment.id}
+                    &lt;/h4&gt;
+                    &lt;p&gt;
+                        ${comment.message}
+                    &lt;/p&gt;
+                &lt;/div&gt;`;
+            });
+
+            variation.comments = result;
+            mainCallback(variation);
+        });
+    }).on('error', function () {
+        variation.commentsList = "";
+        mainCallback(variation);
+    });
+};</code></pre>
+                    <h4>Result</h4>
+                    <ul>
+                        <%- comments %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+        <script>
+            /* jslint browser: true */
+            /* global hljs */
+            hljs.initHighlightingOnLoad();
+            function getAll() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'http://www.lesieur.name/api/comments/', true);
+                xhr.addEventListener("readystatechange", function () {
+                    var commentsArea = document.getElementsByClassName("comments")[0],
+                        comments;
+
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        comments = JSON.parse(xhr.responseText);
+                        comments.forEach(function (comment) {
+                            var group = document.createElement("li"),
+                                title = document.createElement("h4"),
+                                paragraph = document.createElement("p");
+
+                            title.textContent = comment.id;
+                            paragraph.textContent = comment.message;
+
+                            group.appendChild(title);
+                            group.appendChild(paragraph);
+                            commentsArea.appendChild(group);
+                        });
+                    }
+                });
+                xhr.send(null);
+            }
+            getAll();
+        </script>
+    </body>
+</html>

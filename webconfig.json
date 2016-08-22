@@ -1,0 +1,13 @@
+{
+	"httpPort": 7765,
+	"staticOptions": {
+        "maxAge": 0
+    },
+	"getSupport": false,
+	"postSupport": false,
+ 	"urlRelativeSubPath": "api/",
+ 	"commonController": "common.js",
+ 	"commonVariation": "common.json",
+ 	"pageNotFound": "/page-inexistante/",
+	"routes": "routes.json"
+}

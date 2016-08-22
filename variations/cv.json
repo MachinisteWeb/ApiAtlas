@@ -1,0 +1,179 @@
+{
+	"name": "CV",
+	"title": "Développeur Web Full-Stack JavaScript",
+	"header": {
+		"firstname": "Bruno",
+		"lastname": "Lesieur",
+		"age": 28,
+		"address": "66 avenue de Genève",
+		"zipcode": "74000",
+		"town": "Annecy",
+		"state": "Haute-Savoie",
+		"country": "France",
+		"driving": true,
+		"frontier": true,
+		"maried": true,
+		"email": "bruno.lesieur@gmail.com",
+		"phone": "+33 4 50 62 45 11",
+		"mobile": "+33 6 76 27 14 29",
+		"picture": "http://bruno.lesieur.name/media/image/author.png",
+		"degree": 5
+	},
+	"skills": {
+		"mastered": [
+			"HTML5",
+			"CSS3",
+			"JavaScript",
+			"Vanilla",
+			"JS",
+			"jQuery",
+			"Less",
+			"Responsive",
+			"Web",
+			"Design",
+			"Mobile",
+			"first",
+			"Cross-Browser",
+			"NodeAtlas"
+		],
+		"advanced": [
+			"Node.js",
+			"Bootstrap",
+			"FontAwesome",
+			"JSDoc",
+			"MySQL",
+			"PHP",
+			"Markdown",
+			"GIT",
+			"Sublime",
+			"Text",
+			"Photoshop"
+		],
+		"knowledge": [
+			"AngularJS",
+			"NoSQL",
+			"C#.NET",
+			"SQL",
+			"Server",
+			"SVN",
+			"WebStorm",
+			"Visual",
+			"Studio",
+			"LiquidPlanner",
+			"Trello",
+			"Télétravail",
+			"Gestion de Projet"
+		]
+	},
+	"lasts": {
+		"jobs": [{
+			"title": "Dév. Front-end / Back-end Node.js",
+			"at": "Knowledge Expert"
+		}, {
+			"title": "Intégrateur / Développeur web",
+			"at": "MediaWelcome"
+		}, {
+			"title": "Développeur web / Consultant Junior",
+			"at": "B-Fine Consulting"
+		}],
+		"studies": [{
+			"title": "Master Pro M2IRT",
+			"at": "ITIN-ESCIA"
+		}, {
+			"title": "DUT R&T",
+			"at": "Université de Savoie"
+		}, {
+			"title": "BAC S",
+			"at": "Lycée Paul Langevin"
+		}]
+	},
+	"languages": [
+		"Français (Langue maternelle)",
+		"Anglais (Compétences professionnelles, CECR niveau B1)"
+	],
+	"others": [
+		"Médaille du mérite 2008 département R&T à l'IUT d'Annecy-le-Vieux (Université de Savoie, 2008)",
+		"Cisco Certified Network Associate level 1 & 2 (Université de Savoie, 2008)"
+	],
+	"description": "<p> Développeur Web spécialiste JavaScript sur Annecy, je vis chaque jour ma passion nageant parmi les techniques actuelles et d'avenir en matière de Front-end et de Node.js. C'est pourquoi tous les jours au petit déjeuner (mais pas seulement), je prépare de quoi satisfaire ma faim de Responsive Web Design, de performances web, de respect des standards, de bonnes pratiques, de POC HTML5/CSS3, d'accessibilité web, de factorisation, d'automatisation, de partage, de casse-tête en tout genre et ce à travers des projets et prototypes toujours plus appétissants.<br>Dernier gros plats en date ? Vanilla JS, le fr@m€w#rk JavaScript le plus rapide au monde et NodeAtlas, du JavaScript W3C et SEO compliant côté serveur !</p><p> Vous pourrez me trouver sur Twitter (@HaeresisDotFr) ou sur sur Google+ (+Bruno Lesieur) pendant mes heures de veilles pour parler : conception, développement, intégration, ergonomie, optimisation, performance, référencement, web, technos...</p>",
+	"website": "http://www.lesieur.name/a-propos/",
+	"hobbies": [
+		"Comprendre pourquoi LOST a fini comme ça",
+		"Cultiver les problèmes à base de solutions",
+		"Chanter par-dessus les génériques TV",
+		"Faire de la R&amp;D perdu dans mes onglets",
+		"Rouler en chaussure",
+		"Écrire des espaces insécables en Bépo",
+		"Expliquer le concept de la Flemme empathique",
+		"Courir les marathons sur Codefights",
+		"Être écolo quand ça m'arrange",
+		"Échapper aux incidents fâcheux avec un Dé pipé",
+		"Et plein d'autres trucs inconnus... et vice et versa..."
+	],
+	"details": {
+		"jobs": [{
+			"title": "Intégrateur web / Développeur Node.js",
+			"at": "Knowledge Expert SA",
+			"start": "2013",
+			"end": "2016",
+			"address": "CH-1227 Carouge (GE), Suisse",
+			"duration": "2 an 8 mois",
+			"description": "<h6>En charge :</h6><p>Création <span class=\"highlighting\">HTML5</span>/<span class=\"highlighting\">CSS3</span> basé sur Wireframes, Styleguides ou PSD.<br>Création d'UI avec <span class=\"highlighting\">Vanilla JS</span>, <span class=\"highlighting\">jQuery</span> ou <span class=\"highlighting\">AngularJS</span>, <br>Jeux Web 2D avec <span class=\"highlighting\">Canvas</span> et <span class=\"highlighting\">Matter.js</span>.<br>Développement <span class=\"highlighting\">Node.js</span> d'outils de productivité web.<br>Veille et documentation des techniques <span class=\"highlighting\">Front-end</span> en <span class=\"highlighting\">Markdown</span>.<br>Recommandations et Implémentation <span class=\"highlighting\">SEO</span>, <span class=\"highlighting\">W3C</span> et <span class=\"highlighting\">ECMAScript</span>.</p><h6>En support :</h6><p>Habillage Front-end avec <span class=\"highlighting\">Aurelia.io</span> en <span class=\"highlighting\">ES6</span>. <br>Habillage Front-end avec <span class=\"highlighting\">ASP MVC5 Razor</span> et <span class=\"highlighting\">Bootstrap</span>. <br>Développements <span class=\"highlighting\">PHP</span> d'<span class=\"highlighting\">Apps Facebook</span> avec <span class=\"highlighting\">CodeIgniter</span>.<br>Gestion des outils de <span class=\"highlighting\">Télétravail</span> et de <span class=\"highlighting\">Planning</span>.</p>"
+		}, {
+			"title": "Intégrateur / Développeur web",
+			"at": "MediaWelcome",
+			"start": "2011",
+			"end": "2013",
+			"address": "74000 Annecy, France",
+			"duration": "1 an 4 mois",
+			"description": "<p><span class=\"highlighting\">Référent technique</span> sur Architecture \"Web 2.0\" Client et Server-Side.</p><p> Développement Plugin <span class=\"highlighting\">jQuery</span> pour interfaces enrichies.<br>Développement <span class=\"highlighting\">Cross-Domain</span> Client-Side avec Cookie.<br>Mise à niveau <span class=\"highlighting\">HTML5</span> et <span class=\"highlighting\">CSS3</span> de l'équipe.<br>Migration solution web ASP .NET / C# 2.0 vers 4.0.<br>Développements web <span class=\"highlighting\">ASP .NET / C# 4.0</span> et <span class=\"highlighting\">Linq</span>.</p><p> Intégration et charte <span class=\"highlighting\">Drupal</span>.<br>Maintenance et évolution de la documentation <span class=\"highlighting\">MediaWiki</span>.</p>"
+		}, {
+			"title": "Développeur web / Consultant Junior",
+			"at": "B-Fine Consulting",
+			"start": "2009",
+			"end": "2011",
+			"address": "95310 Sain-Ouen l'Aumône, France",
+			"duration": "2 ans",
+			"description": "<p><span class=\"highlighting\">Développeur de sites web</span> et d'applications satellites à l'ERP M3 (Movex).</p><p> Développements web <span class=\"highlighting\">ASP .NET / C# 3.5</span>.<br>Développements application WinForm avec C#.</p><p> Maintenance et évolution du site entreprise sous <span class=\"highlighting\">Joomla!</span>.<br>Maintenance et évolution du blog entreprise sous <span class=\"highlighting\">WordPress</span>.</p></article>"
+		}, {
+			"title": "Développeur web / Intégrateur de GED",
+			"at": "Infovive",
+			"start": "2008",
+			"end": "2009",
+			"address": "95490 Vauréal, France",
+			"duration": "1 an",
+			"description": "<p><span class=\"highlighting\">Développeur et intégrateur</span> d'applications lourdes et web de GED (Gestion Electronique de Document).</p><p> Développements web Intranet <span class=\"highlighting\">ASP .NET / C# 2.0</span>.<br>Intégration et développement MOSS 2007.</p>"
+		}],
+		"studies": [{
+			"title": "Master Pro M2IRT, Management informatique",
+			"at": "ITIN - ESCIA",
+			"start": "2008",
+			"end": "2011",
+			"address": "95891 Cergy-Pontoise, France",
+			"duration": "3 ans",
+			"description": "<h6>M2</h6><dl><dt></dt><dd><span class=\"highlighting\">Ingénierie Jeux Vidéos.</span></dd><dt>Projet :</dt><dd>Développement web mobile <span class=\"highlighting\">PHP 5.3 / MySQL</span> intégré dans une application <span class=\"highlighting\">Android</span>, application hybride.</dd><dt>Mémoire :</dt><dd>Mémoire de recherche sur la traçabilité et la sécurité des informations personnelles avec la RFID.</dd></dl><h6>M1</h6><dl><dt></dt><dd><span class=\"highlighting\">Ingénierie Réalité Augmentée.</span></dd><dt>Projet :</dt><dd>Modélisation 3D et texture <span class=\"highlighting\">Photoshop</span> du théâtre de la Roche-Guyon avec Virtools et <span class=\"highlighting\">embarqué web</span>.</dd></dl><h6>L3</h6><dl><dt></dt><dd><span class=\"highlighting\">Gestion de Projet.</span></dd><dt>Projet :</dt><dd>Développement web ASP .NET / C# 3.0 partageant une BDD <span class=\"highlighting\">MySql</span> avec un Forum <span class=\"highlighting\">PhpBB</span> intégré.</dd><dt>Etude :</dt><dd>Etudes sur les Réseaux de neurones.</dd></dl></article>"
+		}, {
+			"title": "DUT R&T, Informatique, Réseaux et Télécoms",
+			"at": "Université de Savoie",
+			"start": "2006",
+			"end": "2008",
+			"address": "74940 Annecy-le-Vieux, France",
+			"duration": "2 ans",
+			"description": "<h6>D2</h6><dl><dt></dt><dd><span class=\"highlighting\">Programmation Orientée Objet</span>.</dd><dt>Projet :</dt><dd>Développement d'un intranet web <span class=\"highlighting\">PHP / MySQL</span> de gestion d'absences et de retards.</dd><dt>Stage :</dt><dd>MediaWelcome : Administration réseau (Audit) et développement web ASP .NET / C# d'un site communautaire à propos des voyages.</dd></dl><h6>D1</h6><dl><dt></dt><dd><span class=\"highlighting\">Architectures des réseaux et protocole TCP/IP</span>.</dd><dt>Projet :</dt><dd>Développement d'un CMS web original <span class=\"highlighting\">PHP / MySQL</span> pour une école de danse.</dd></dl>"
+		}, {
+			"title": "Bac Scientifique, Option SVT",
+			"at": "Lycée Paul Langevin",
+			"start": "2003",
+			"end": "2006",
+			"address": "60000 Beauvais, France",
+			"duration": "3 ans",
+			"description": ""
+		}],
+		"before": {
+			"description": "<p><span class=\"highlighting\">Création intégrale</span> de deux sites web communautaires distincts (<span class=\"highlighting\">xHTML</span>, <span class=\"highlighting\">CSS</span>, <span class=\"highlighting\">PHP</span>, <span class=\"highlighting\">MySQL</span> et <span class=\"highlighting\">AJAX</span>) sans CMS dont fonctionnalités suivantes :<br></p><ul><li>Espace membre et fiche perso,</li><li>Gestion de droits utilisateur,</li><li>Éditeur de contenu de page,</li><li>Forum de discussion,</li><li>Chat web,</li><li>Créateur de Fanfiction,</li><li>Editeur de news et màj,</li><li>Multi-design,</li><li>Mini-jeux, etc.</li><li>...</li></ul>"
+		},
+		"after": {
+			"description": "<h6>Veille</h6><p>Rédaction de billets sur <a href=\"http://blog.lesieur.name/\" title=\"Quelques #ID et beaucoup de .CLASS\">blog perso</a>. Traductions de billets. Veille via réseaux sociaux.</p><h6>Vanilla JS</h6><p>Documentation complète et Benchmark de <a href=\"http://blog.lesieur.name/vanilla-js-france/\" title=\"Vanilla JS - Documentation en français\">Vanilla JS</a> comparé à celle de <span class=\"highlighting\">jQuery</span> pour développer en JavaScript natif.</p><h6>Node.js</h6><p>Création de <a href=\"http://haeresis.github.io/NodeAtlas/\" title=\"NodeAtlas vous permet de créer et maintenir des Assets HTML ou sites multilingues simplement en Node.js\">NodeAtlas</a>, un moteur pour architecture <span class=\"highlighting\">MVC2</span> pour assets html, site web ou application web temps réel. Utilisation de : <span class=\"highlighting\">ExpressJS</span>, <span class=\"highlighting\">EJS</span>, <span class=\"highlighting\">Socket.io</span>, <span class=\"highlighting\">commander</span>, <span class=\"highlighting\">mongoose</span>, etc. Partage sur GitHub.</p><h6>Architecture Mobile first</h6><p>Création de structure Front-end responsive orientées <span class=\"highlighting\">Mobile first</span>, multi-browser avec <span class=\"highlighting\">fallback</span> pour vieux navigateurs (<span class=\"highlighting\">Modernizr</span>) et échange <span class=\"highlighting\">Websocket</span>/<span class=\"highlighting\">AJAX</span>.</p><h6>Performances et SEO</h6><p>Optimisation image (<span class=\"highlighting\">sprite</span>/<span class=\"highlighting\">base64</span>), minification CSS, offuscation JS, respect des standards <span class=\"highlighting\">W3C</span>, parallélisation de chargement sous environnement <span class=\"highlighting\">Apache</span>.</p><h6>PHP</h6><p>Développement d'une architecture <span class=\"highlighting\">MVC2</span>, avec Framework <span class=\"highlighting\">PHP 5.4</span> personnel, orientée <span class=\"highlighting\">Front-End</span> (<span class=\"highlighting\">HTML5</span>/<span class=\"highlighting\">CSS3</span>/<span class=\"highlighting\">JS</span>) : multi-plateforme, interopérabilité navigateur, multilingue, multi-template, impression, édition temps réel...</p>"
+		}
+	}
+}
