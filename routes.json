@@ -9,11 +9,11 @@
   			"Access-Control-Allow-Origin": "*"
         }
 	},
-	"/comments/:id/": {
+	"/comments/:idput/": {
 		"template": "default.htm",
 		"variation": "comments.json",
-		"controller": "delete-comment.js",
-		"deleteSupport": true,
+		"controller": "update-comment.js",
+		"putSupport": true,
 		"headers": {
             "Content-Type": "application/json; charset=utf-8",
   			"Access-Control-Allow-Origin": "*"
@@ -22,8 +22,8 @@
 	"/comments/:id/": {
 		"template": "default.htm",
 		"variation": "comments.json",
-		"controller": "update-comment.js",
-		"putSupport": true,
+		"controller": "delete-comment.js",
+		"deleteSupport": true,
 		"headers": {
             "Content-Type": "application/json; charset=utf-8",
   			"Access-Control-Allow-Origin": "*"

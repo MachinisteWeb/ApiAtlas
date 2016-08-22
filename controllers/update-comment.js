@@ -13,9 +13,9 @@ exports.changeVariation = function (params, mainCallback) {
 		response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 	}
 
-	if (variation.params && variation.params.id) {
+	if (variation.params && variation.params.idput) {
 		[].forEach.call(variation.specific, function (item, i) {
-			if (item.id === variation.params.id) {
+			if (item.id === variation.params.idput) {
 				position = i;
 			}
 		});
