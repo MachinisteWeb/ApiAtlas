@@ -28,7 +28,6 @@ website.components = {};
 			publics.mongooseSchemas(mongoose);
 			next();
 		});
-
 	};
 
 	publics.mongooseSchemas = function (mongoose) {
