@@ -1,0 +1,420 @@
+{
+	"1": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"curses": [
+				"Malédiction ! Aller-simple pour l'Asile de Snarkham",
+				"Malédiction ! Amnésie",
+				"Malédiction ! Changement de Sexe",
+				"Malédiction ! Cheveux Blanchis sous le Coup de l'Horreur",
+				"Malédiction ! Cheveux Dressés sur la Tête",
+				"Malédiction ! Encore une Affreuse Prise de Conscience",
+				"Malédiction ! Hastur Hastur Hastur",
+				"Malédiction ! J'me sens tout Visqueux, d'un Coup...",
+				"Malédiction ! La Malédiction de Savath",
+				"Malédiction ! Par-delà la Frontière de la Démence",
+				"Malédiction ! Piles de la Lampe Torche Usées !",
+				"Malédiction ! Sac à Dos Dévoré",
+				"Malédiction ! Votre Arme devient Maléfique"
+			],
+			"classes": [
+				"Cultiste",
+				"Cultiste",
+				"Cultiste",
+				"Cultiste",
+				"Cultiste",
+				"Cultiste",
+				"Investigateur",
+				"Investigateur",
+				"Investigateur",
+				"Investigateur",
+				"Professeur",
+				"Professeur",
+				"Professeur",
+				"Professeur",
+				"Tabasseur de Monstres",
+				"Tabasseur de Monstres",
+				"Tabasseur de Monstres",
+				"Tabasseur de Monstres"
+			],
+			"madnesses": [],
+			"monsters": [
+				"Celle qui Suçotait dans les Ténèbres",
+				"Celui qui Chapardait dans les Ténèbres",
+				"Ceux qui Chipotaient dans les Ténèbres",
+				"Chibithulhu",
+				"Escarggoth",
+				"Goulaschoggoth",
+				"H.P. Munchcraft",
+				"Joggoth",
+				"Kermitoggoth",
+				"L Ch_s s_ns V___ll_s",
+				"L'Abomination du Sandwich",
+				"L'Avocat d'Affaires Charles Dexter Ward",
+				"L'Horreur Inçonon... impon... imprononçable",
+				"Les Beaufonds",
+				"Le Clochard d'Innsmouth",
+				"Le Funky de Yuggoth",
+				"Le Grand Cthulhu",
+				"Le Peuple Serpent à Lunettes",
+				"Le Roi en Rose",
+				"Lloigor (ou Lloichka) Bogdanoff (on les reconnaît plus...)",
+				"Maigre Bêtes de la Nuisette",
+				"Mesquins Byakhees Taquins Kakis",
+				"Morves de Dieu Extérieur",
+				"Mouchoggoth, La Mite de Cthulhu",
+				"Paahrdeulhah, Lémure du Sommeil",
+				"Polly le Polype Violent",
+				"Rejeton Gueuleton d'Azathoth",
+				"Rideauggoth",
+				"Roboggoth",
+				"Shog Goth",
+				"Shoggoth (même pas de jeu de mot, rien...)",
+				"Sombre Bouton de Shub-Niggurath (en pleine floraison, qui plus est...)",
+				"Souchoggoth",
+				"Tchou-Tchou",
+				"Tony Harlathotep (dit « Hawk »)",
+				"Témoins de Cthulhu",
+				"Vigne des Anciens, Avatar de Yog-Sauterne"
+			],
+			"upgrades": [
+				"... et sa Progéniture",
+				"Blasphématoire",
+				"C'est çui qui dit qui R'Lyeh !",
+				"Créé avec des Règles Cinématographiques !",
+				"Complètement Barge",
+				"Convention de Cultistes",
+				"Corrompu par le Pouvoir !",
+				"D'une Indescriptible Hideur",
+				"Écume de Bave",
+				"En pleine Élucubration",
+				"Grand Coup sur la Tête",
+				"Grand Coup sur la Tête",
+				"Iïa R'Lyeh !",
+				"Illumination Inopportune",
+				"Innommable",
+				"Je ne suis pas Digne de cet Honneur...",
+				"Les Étoiles sont Alignées",
+				"Les Étoiles sont Complètement Stone",
+				"Les Étoiles sont Troublées",
+				"Méphitique",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Mutation",
+				"Plongé dans son Sommeil Millénaire",
+				"Portail du Mystère",
+				"Quadri-Dimensionnel",
+				"Squameux",
+				"Super Munchkin",
+				"Super Munchkin",
+				"Tricheur !",
+				"Vésiculeux"
+			],
+			"warps": []
+		},
+		"treasures": {
+			"actions": [
+				"...des Plutôt Grands et Relativement Anciens",
+				"... Officiel du Mythe",
+				"Cri Perçant",
+				"Éclipse Solaire",
+				"Incommensurable Richesse",
+				"Le Chant qui Rend Fou",
+				"Rire Dément",
+				"Voleur d'Ichor"
+			],
+			"levels": [
+				"Appeler l'Armée à la Rescousse",
+				"Apprendre ce que l'Homme n'était pas Censé Savoir",
+				"Avertir le FBI de l'Existence des Créatures",
+				"Avertir le Président",
+				"Découverte Troublante dans l'Album de Famille",
+				"Entrainement",
+				"Être Interviewé au Journal de Vingt Heures",
+				"Informer les Autorités Locales",
+				"Seul Survivant",
+				"Vision Mystiques"
+			],
+			"objects": [
+				"Anneau de Souhait",
+				"Anneau de Souhait",
+				"Corned-Beef",
+				"Dé Pipé",
+				"Ichor : Le Cancan Fielleux",
+				"Ichor : Le Élan des Preux",
+				"Ichor : Le Flan Visqueux",
+				"Ichor : Le P'tit Blanc des Dieux",
+				"Ichor : Le Sang Dégueu",
+				"Ichor : Le Sang des Dieux",
+				"Ichor : Moins Lent, c'est Mieux...",
+				"La Douleur tombée du Ciel"
+			],
+			"stuffs": [
+				"Appareil de Protection Électrique du Professeur Tesla (Prototype)",
+				"Autocollant de Pare-Choc Cthulhu",
+				"Baguette de Mémorable Raclée",
+				"Bottes en Caoutchouc",
+				"Carte de Membre d'un Culte Maléfique",
+				"Carte Non-Euclidienne",
+				"Casque de Mineur",
+				"Clou Lourd",
+				"Cornemuse",
+				"Couteau à Sushi du Destin",
+				"Couvre... Poulpe-Chef",
+				"Cthulhututu Chapeau Pointu",
+				"Enseigne des Anciens",
+				"Fusil à Triple Canon",
+				"Hache Préhistorique",
+				"Insecticide",
+				"Lance-Flammes",
+				"Lattes à latter du Monstre",
+				"Les Tatanes Hallucinées",
+				"Maîîîîîîître !",
+				"Manuscrit Ésotérique",
+				"Mythailleuse",
+				"Necrocomicon",
+				"Necrognomicon",
+				"Necronomicon",
+				"Necrononichons",
+				"Nécrotélécom",
+				"Pages Jaunes d'Innsmouth",
+				"Poing Américain Vachement Stylé",
+				"Poncho Imperméable aux Substances Dégueu",
+				"Quille de Bowling",
+				"Sac à Dos Rempli de Dynamite",
+				"Shogulateur",
+				"Tentacule",
+				"Tentacule Factice",
+				"T-Shirt de l'Université de Miskatronic",
+				"Torche Électrique à Deux Mains",
+				"Veste en Tweed"
+			]
+		}
+	},
+	"2": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"curses": [],
+			"classes": [
+				"Cultiste",
+				"Cultiste",
+				"Investigateur",
+				"Professeur",
+				"Tabasseur de Monstres"
+			],
+			"madnesses": [
+				"Démence ! Double Personnalité",
+				"Démence ! Gammaphobie",
+				"Démence ! Kleptomanie",
+				"Démence ! Névrose Obsessionnelle Compulsive",
+				"Démence ! Paranoïa"
+			],
+			"monsters": [
+				"Arkhamster",
+				"Cochonien",
+				"Chatzatoth",
+				"Chiot-Goth",
+				"Chiots de Tindalos",
+				"Cotchk-Cotchk-Codêêêêtchk",
+				"La Douleur Tombée du Miel",
+				"La Vache Milkhathulhu",
+				"Les Chariots des Dieux Vieux",
+				"Les Enfants du Maïs",
+				"Salade de Chèvres Chauggoth",
+				"Shub-Ni-Goret",
+				"Sombres Moutons de Shub-Niggurath",
+				"Tcha-Tcha"
+			],
+			"upgrades": [
+				"Agité de Soubresauts",
+				"Batracien",
+				"D'une Hideuse Indescriptibilitude",
+				"Grand Coup sur la Tête",
+				"Monstre Errant",
+				"Super Munchkin",
+				"Tout(e) Pitit(e) Pitit(e)...",
+				"Tricheur !"
+			],
+			"warps": []
+		},
+		"treasures": {
+			"actions": [
+				"Doc Igor l'Ichor",
+				"Infecté",
+				"Hurlement Délirant",
+				"Intervention Bovine",
+				"Le Chant qui rend Fou, 2e Couplet",
+				"Poignée de Main Secrète",
+				"Puits aux Souhaits"
+			],
+			"levels": [
+				"Conserves de Concours",
+				"Méditer au Temple de la Pleine Lune Fendue",
+				"Poser pour un Portrait de Famille"
+			],
+			"objects": [
+				"Anneau de Souhait",
+				"Dé Pipé",
+				"Ichor : Le Nectar du Feu de Dieu ! Boudiou !",
+				"Vieux Poêle Curieusement Aérodynamique"
+			],
+			"stuffs": [
+				"Bottes en Peau de Poulpe",
+				"Canon à Patates",
+				"Chapeau de Paille",
+				"Faux",
+				"Fourche de Foule en Colère (mais néanmoins prudente...)",
+				"Le Barattor ! (et à travers...)",
+				"Moissonneuse Tabasseuse",
+				"Pelle à Crottes qui déchire sa Race (surtout sa Race Ancienne)",
+				"Rouleau à Pâtisserie",
+				"Veste de l'Université de Rat-Musquétonic"
+			]
+		}
+	},
+	"3": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"curses": [],
+			"classes": [
+				"Cultiste",
+				"Investigateur",
+				"Professeur",
+				"Tabasseur de Monstres"
+			],
+			"madnesses": [
+				"Démence ! Autophobie",
+				"Démence ! Bibliophobie",
+				"Démence ! Disophobie",
+				"Démence ! Phobophobie",
+				"Démence ! Pyromanie"
+			],
+			"monsters": [
+				"'Zathoth",
+				"Atlach-Nacha",
+				"Dagoon",
+				"Goules",
+				"Gug",
+				"Le Grand Quethoulhou",
+				"Les Pwofonds",
+				"Maigres Bêtes de la Nuit",
+				"Mi-Glu",
+				"Nyarly",
+				"Shoggies",
+				"Shubby",
+				"Tindaloo",
+				"Ygo",
+				"Yogzotot"
+			],
+			"upgrades": [
+				"Chthoniens !",
+				"Cultistes Croustillants",
+				"Dégoulinant de Bave",
+				"Grand Coup sur la Tête",
+				"Monstre Errant",
+				"Super Munchkin",
+				"Tout Minuscule",
+				"Tricheur !",
+				"Truculent",
+				"Tumescent"
+			],
+			"warps": []
+		},
+		"treasures": {
+			"actions": [
+				"Gémissement Inhumain",
+				"Le Chant qui rend Fou, 3e Couplet",
+				"Miam Miam !",
+				"Pied Tentaculaires",
+				"Tête Gluante",
+				"Trop Coool !",
+				"Venu d'une Autre Dimension"
+			],
+			"levels": [
+				"Donner vos Amis à Manger à Quethoulhou",
+				"Fouiller les Profondeurs en Quête de Savoir",
+				"Maîtriser ses Peurs"
+			],
+			"objects": [
+				"Anneau de Souhait",
+				"Dé Pipé",
+				"Ichor le Nectar Capricieux !",
+				"Ichor le Nectar Vicieux !",
+				"Shoggy Gelé"
+			],
+			"stuffs": [
+				"Feux d'Artifice",
+				"Gramophone",
+				"Nécrominicon",
+				"Ouvre-Boîte",
+				"Seringue Hypodermique",
+				"T-Shirt de en Cultiste",
+				"Taille-Haie"
+			]
+		}
+	},
+	"4": {
+		"donjons": {
+			"fields": [
+				"Antre des Dholes",
+				"Antre Souterrain de Byatis",
+				"Arène d'Azathoth",
+				"Boutique de Chaussures Souterraine de Shub-Niggurath",
+				"Caverne des Archétypes",
+				"Cloaque des Mi-Go",
+				"Crevasse des Chthoniens",
+				"Cryptes d'Innsmouth",
+				"Égout des Shoggoths",
+				"Gouffre de Cthulhu",
+				"Grotte de Glaaki",
+				"K'n-Yan",
+				"Le Fossé de Dunwich",
+				"Les Contrées du Rêve",
+				"Les Montagnes Hallucinées",
+				"Monde Souterrain d'Ubbo-Sathla",
+				"Sous-sol de la Bibliothèque de l'Université Miskatonic",
+				"Station de Métro d'Arkham",
+				"Ténébreuse Tanière des Lloigor",
+				"Tunnel de Tsathoggua"
+			]
+		},
+		"doors": {
+			"curses": [],
+			"classes": [],
+			"madnesses": [],
+			"monsters": [],
+			"upgrades": [],
+			"warps": [
+				"Condamnés à Répéter les Erreurs du Passé",
+				"Condamnés à Répéter les Erreurs du Passé",
+				"Dimension Parallèle",
+				"Dimension Parallèle",
+				"Enseigne Clignotante Géante des Anciens",
+				"Enseigne Clignotante Géante des Anciens",
+				"Fosse et Usage de Fosse !",
+				"Fosse et Usage de Fosse !",
+				"Immenses Glyphes Immondes Sculptés sur les Murs",
+				"Immenses Glyphes Immondes Sculptés sur les Murs",
+				"Passe Devant et Suis-moi",
+				"Passe Devant et Suis-moi",
+				"Par ici, Bande d'Abrutis !",
+				"Par ici, Bande d'Abrutis !",
+				"Porte des Grands Anciens",
+				"Porte des Grands Anciens"
+			]
+		},
+		"treasures": {
+			"actions": [],
+			"levels": [],
+			"objects": [],
+			"stuffs": []
+		}
+	}
+}

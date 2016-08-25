@@ -49,6 +49,56 @@
   			"Access-Control-Allow-Origin": "*"
         }
 	},
+	"/games/munchkin-cthulhu/(:game/)?(:stack/)?(:type/)?": {
+		"template": "default.htm",
+		"variation": "munchkin-cthulhu.json",
+		"controller": "munchkin.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/games/star-munchkin/(:game/)?(:stack/)?(:type/)?": {
+		"template": "default.htm",
+		"variation": "star-munchkin.json",
+		"controller": "munchkin.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/games/super-munchkin/(:game/)?(:stack/)?(:type/)?": {
+		"template": "default.htm",
+		"variation": "super-munchkin.json",
+		"controller": "munchkin.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/games/munchkin-zombies/(:game/)?(:stack/)?(:type/)?": {
+		"template": "default.htm",
+		"variation": "munchkin-zombies.json",
+		"controller": "munchkin.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
+	"/games/munchkin/(:game/)?(:stack/)?(:type/)?": {
+		"template": "default.htm",
+		"variation": "munchkin.json",
+		"controller": "munchkin.js",
+		"getSupport": true,
+		"headers": {
+            "Content-Type": "application/json; charset=utf-8",
+  			"Access-Control-Allow-Origin": "*"
+        }
+	},
 	"/blog/articles/": {
 		"template": "default.htm",
 		"controller": "blog/articles.js",

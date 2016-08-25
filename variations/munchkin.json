@@ -1,0 +1,1372 @@
+{
+	"1": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction !",
+				"Malédiction !",
+				"Malédiction !",
+				"Malédiction !",
+				"Malédiction !",
+				"Malédiction ! Canard de l'Apocalypse",
+				"Malédiction ! Changement de Classe",
+				"Malédiction ! Changement de Race",
+				"Malédiction ! Changement de Sexe",
+				"Malédiction ! Commun des Mortels",
+				"Malédiction ! Déclassé !",
+				"Malédiction ! Impôt sur le Revenu",
+				"Malédiction ! Grosse Perte",
+				"Malédiction ! Miroir Perfide",
+				"Malédiction ! Perdez deux cartes",
+				"Malédiction ! Petite Perte",
+				"Malédiction ! Petite Perte",
+				"Malédiction ! Poulet sur la Tête",
+				"Malédiction Vraiment Trop Injuste !"
+			],
+			"classes": [
+				"Guerrier",
+				"Guerrier",
+				"Guerrier",
+				"Magicien",
+				"Magicien",
+				"Magicien",
+				"Prêtre",
+				"Prêtre",
+				"Prêtre",
+				"Voleur",
+				"Voleur",
+				"Voleur"
+			],
+			"monsters": [
+				"3872 Orques",
+				"Amazone",
+				"Balrog Charolais",
+				"Belvédère Sauvage",
+				"Bigfoot, alias Grand-Pied",
+				"Binoclard Hurleur",
+				"Céphalopodzilla",
+				"Cheval Zombie",
+				"Dragon de Plutonium",
+				"Escargots sous Acide",
+				"Fan de Vampire",
+				"Gerbosaure",
+				"Goblin Estropié",
+				"Golem Fracassé",
+				"Grenouilles Volantes",
+				"Harpistes Harpies",
+				"Hippogriffe",
+				"Horreur non-euclidienne indicible",
+				"Huissier",
+				"Lépreuxchaun",
+				"Manticor-nithorynque",
+				"Morpions",
+				"Mr. Nonos",
+				"Mucus Baveux",
+				"Nez Flottant",
+				"Octaèdre Gélatineux",
+				"Pit Bull",
+				"Plante d'Ornement",
+				"Poulet Élevé aux Stéroïdes",
+				"Rat Musclé",
+				"René Crophage et Fils, Dépanneurs en Chirurgie",
+				"Représentant en Assurances",
+				"Succube Lange-de-Belle-Mère",
+				"Suceur de Tête",
+				"Trôliste",
+				"Tut-Tuuut-Ankh-Ammon",
+				"Vamps...ires !?!"
+			],
+			"mounts": [],
+			"races": [
+				"Elfe",
+				"Elfe",
+				"Elfe",
+				"Halfelin",
+				"Halfelin",
+				"Halfelin",
+				"Nain",
+				"Nain",
+				"Nain",
+				"Sang-mêlè",
+				"Sang-mêlè"
+			],
+			"upgrades": [
+				"Bébé !",
+				"Énoooorme !",
+				"Enragé",
+				"Illusion",
+				"Intervention Divine",
+				"Intelligent",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Pause Déjeuner",
+				"Petite Amie",
+				"Super Munchkin",
+				"Super Munchkin",
+				"Tire-moi de là !",
+				"Tricheur !",
+				"Vénérable"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [
+				"Fidèle Serviteur"
+			],
+			"actions": [
+				"Pillaaaaaaage !",
+				"Titre qui en Jette Vraiment Grave"
+			],
+			"levels": [
+				"1000 pièces d'or",
+				"Don de Chips Désintressé au MJ",
+				"Erreur de Calcul Avantageuse",
+				"Génocide de Fourmis à l'Huile Bouillante",
+				"Invocation de Règles Obscures",
+				"Mutiler les Cadavres",
+				"Pleurer dans les Jupes du MJ",
+				"Potion de Machisme Triomphant",
+				"Tuer le Fidèle Serviteur",
+				"Vol de Niveau"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de Souhait",
+				"Anneau de Souhait",
+				"Baguette de Sourcier",
+				"Boisson Énergisante Éventée",
+				"Champagne",
+				"Cotion de Ponfusion",
+				"Doppelganger",
+				"Dé Pipé",
+				"Flaque de Colle",
+				"Lampe Merveilleuse",
+				"Missile Magique",
+				"Mur Instantané",
+				"Oh, Les Jolis Ballons !",
+				"Potion Acide Radioactive et Électrique",
+				"Potion d'Invisibilité",
+				"Potion d'Amitié",
+				"Potion de bravoure hystérique",
+				"Potion de Mauvaise Halleine",
+				"Potion de Poison Enflammé",
+				"Potion de Polly-morphie",
+				"Potion de Sommeil",
+				"Potion de Transfert",
+				"Potion Glaciale Explosive"
+			],
+			"stuffs": [
+				"Arc Enrubanné",
+				"Armure de Cuir",
+				"Armure de Flamme",
+				"Armure de Mithril",
+				"Armure Gluante",
+				"Armure Trapue",
+				"Bandana de Gros Dur",
+				"Bâton de Napalm",
+				"Bouclier Surdimensionné",
+				"Bottes de Convocation d'Hémorroïdes",
+				"Bottes de Déplacement Frénetique",
+				"Brochette de Rat",
+				"Casque de Courage",
+				"Casque de Virilité Ostentatoire",
+				"Cape d'Ombre",
+				"Chapeau Pointu de Thaumaturgie",
+				"Collants de Force de Géant",
+				"Dague de Traitrise",
+				"Énorme Rocher",
+				"Escabeau",
+				"Épée (de) Bâtard(e)",
+				"Épée de Féminisme Exacerbé",
+				"Épée Karaoké",
+				"Genouillères de Séduction",
+				"Genouillères Perforantes",
+				"Gourdin de Misogynie Fracassante",
+				"Hallebrde Suisse Multifonctions",
+				"Lance de 3,50 m",
+				"Masse d'Armes de Répartie Piquante",
+				"Marteau des Rotules Douloureuses",
+				"Rape à Fromage de la Paix",
+				"Rapière d'Injustice Flagrante",
+				"Sandales de Protection",
+				"Sandwich Chocolat-Moules-Anchois",
+				"Targe d'Inconscience Suicidaire",
+				"Tronçonneuse de la Mort",
+				"Tuba d'Envoutement"
+			]
+		},
+		"spells": {
+			"books": []
+		}
+	},
+	"2": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction ! Bidule Maudit",
+				"Malédiction ! Bidule Maudit",
+				"Malédiction ! Générosité",
+				"Malédiction ! Grands Pieds",
+				"Malédiction ! Mains Minuscules",
+				"Malédiction ! Nécrophobie",
+				"Malédiction ! Odeur Corporelle",
+				"Malédiction ! Or des fous",
+				"Malédiction ! Perte d'un Gros Objet",
+				"Malédiction ! Perte d'un Petit Objet",
+				"Malédiction ! Règles de la Nouvelle Édition"
+			],
+			"classes": [
+				"Guerrier",
+				"Magicien",
+				"Prêtre",
+				"Voleur"
+			],
+			"monsters": [
+				"Avocat fantôme",
+				"Cafard Géant",
+				"Champi Gnons",
+				"Clowns de la Mort",
+				"Créature de Stupre et de Luxure",
+				"Démon Tentaculaire",
+				"Écureuil Psychopathe",
+				"Élémentaire de Morve",
+				"Géant de Givre",
+				"Herbeux Dégueu",
+				"Hydreolique",
+				"Jabberwock",
+				"Judge Fredd",
+				"L'Ombre du Nez Flottant",
+				"La Chose au Nom si Long",
+				"Le Germe du Mal",
+				"Main Rampante",
+				"Minette Sanguinaire",
+				"Mobile",
+				"Monstre fait maison",
+				"Moufette Géante",
+				"Nounours",
+				"Père Noël",
+				"Ptérodactyle",
+				"Rats pestiférés",
+				"Tortue-garou",
+				"Vestales de l'Ordrede la Pleine Lune",
+				"Vide",
+				"Vide"
+			],
+			"mounts": [],
+			"races": [
+				"Elfe",
+				"Halfelin",
+				"Nain",
+				"Orque",
+				"Orque",
+				"Orque",
+				"Orque",
+				"Sang-Mêlé"
+			],
+			"upgrades": [
+				"Amical",
+				"Annihilation",
+				"Cartes excessivement merveilleuses",
+				"Endormi",
+				"Fauché",
+				"Hé, une carte !",
+				"Les cadavres ne se battent pas",
+				"Monstre Errant",
+				"Monstre Errant",
+				"MoÔoman",
+				"Mort-Vivant",
+				"Nichée",
+				"Super Munchkin",
+				"Tricheur"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"Cheval de Troie",
+				"Ton lacet est défait !",
+				"Vide Grenier"
+			],
+			"levels": [
+				"Contemplation du Nombril",
+				"Cruauté Gratuite",
+				"Échange de feuilles de personnage",
+				"Laver la Voiture MJ",
+				"Payer la Pizza",
+				"Plier, Embrocher et Mutiler",
+				"Promettre au MJ d'arrêter de lui parler de votre Personnage"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de Souhait",
+				"Crème de bébé",
+				"Dé Subtilement Pipé",
+				"Dé Subtilement Pipé",
+				"Poil à Gratter",
+				"Potage Sauvage",
+				"Potion de Lâcheté",
+				"Potion de Vol",
+				"Potion d'Incrédulité",
+				"Sauce Tartare Barbare"
+			],
+			"stuffs": [
+				"...du Destin !",
+				"Boomdague",
+				"Braguette Cloutée",
+				"Casque de vision périphérique",
+				"Casquelette",
+				"Chapeau en Papier d'Alu",
+				"Dentier de l'Effroi",
+				"Dragon Nain Tout Mignon",
+				"Engin de Siège",
+				"Épée Super Zarbi",
+				"Épée Tueuse de Tout (à l'exception notable des poulpes)",
+				"Exoarmure",
+				"Familier",
+				"Fausse Barbe",
+				"Fourchette à Barbecue",
+				"Gastérofronde",
+				"Hache Surnaturelle",
+				"Imperméable",
+				"Le Maillet Béni de Saint Aieuuuu !",
+				"Lumière Éternelle (piles non incluses)",
+				"Pince à Épiler de la Terreur",
+				"Rouleau de l'Ordre",
+				"Sac de Clous",
+				"Très Saint Livre",
+				"Vide"
+			]
+		}
+	},
+	"3": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction ! ...de la mort qui tue !",
+				"Malédiction ! amnésie temporaire",
+				"Malédiction ! bière des nains",
+				"Malédiction ! échec christique !",
+				"Malédiction ! les genoux explosés",
+				"Malédiction ! piège à touristes",
+				"Malédiction ! sac à dos affamé",
+				"Malédiction ! vous trebuchez sur votre trésors"
+			],
+			"classes": [
+				"Barde",
+				"Barde",
+				"Barde",
+				"Barde",
+				"Barde",
+				"Guerrier",
+				"Magicien",
+				"Prêtre",
+				"Voleur"
+			],
+			"monsters": [
+				"Baal-Y-Nacee,Grand Antien de la Basse-Cour des Enfers",
+				"Camulot",
+				"Cécil Vanien, déménageur en entrailles",
+				"Dessin de votre petit frère",
+				"Dopplegangsters",
+				"Dryade",
+				"Géants de la raclette",
+				"Gobe-mouche urticant bio-mutant",
+				"Golem de Chewing-gum",
+				"Gothyanki",
+				"Gros Bourrin",
+				"Gros porc macho",
+				"Homme-hochet",
+				"Kali",
+				"Kobolds kamikazes",
+				"Les Manes occis de la mer morte",
+				"Méduse",
+				"Mort-Ylin Moncroc",
+				"Nounours sanguinaire géant",
+				"Petit lapin tout ce qu'il y a de plus ordinaire...",
+				"Poisson rouge",
+				"Resident débile, le charancon mutant",
+				"Sire Hupeux",
+				"Tati Paladin",
+				"Tequila Piaf",
+				"Tonneau sans fond",
+				"Zozo le zusticier"
+			],
+			"mounts": [],
+			"races": [
+				"Elfe",
+				"Gnome",
+				"Gnome",
+				"Gnome",
+				"Gnome",
+				"Gnome",
+				"Halfelin",
+				"Nain",
+				"Orque",
+				"Sang-mêlé"
+			],
+			"upgrades": [
+				"...de l'Enfer",
+				"En pleine dépression",
+				"En sous-vêtements",
+				"Énorme Épée de passage à tabac de personnage",
+				"Erreur de typo",
+				"Les Monstres sont occupés",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Mort-vivant",
+				"Obscènement riche",
+				"Super Munchkin",
+				"Tricheur !"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [
+				"Fidèle Serviteur"
+			],
+			"actions": [
+				"Béni",
+				"Coup quasi-fatal",
+				"Descente de dieux",
+				"Empoisonné",
+				"Intervention féline",
+				"Lancer de nain",
+				"Le casino du donjon",
+				"Moi ! Moi ! Moi !",
+				"Poignées de transport",
+				"Taille unique"
+			],
+			"levels": [
+				"Acte de bonté absurde",
+				"Faire un dessin de son personnage",
+				"Menacer de changer de système de jeu",
+				"Regarde le dé, il tourne, il toune...",
+				"Remettre sa vieille fiche de perso au propre...",
+				"Se souvenir de l'anniversaire du MJ",
+				"Voler la vedette"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de Souhait",
+				"Canard d'abondance",
+				"Cocktail Molotroll",
+				"Croquettes pour monstres",
+				"Dé pipé",
+				"Gelée royale",
+				"Injonction",
+				"Potion d'apathie",
+				"Potion de greluche instantanée",
+				"Sauce pimentée",
+				"Tarte savoureuse"
+			],
+			"stuffs": [
+				"Bikini en cotte de mailles",
+				"C'est le luth finaAaleuuu !",
+				"Chaussettes de Pestilence",
+				"Chaussons de Coming-out",
+				"Costume en gnomex",
+				"Divan de psi",
+				"Épée à deux mains",
+				"Farces et attrapes de Manufacture Gnome",
+				"Fouet “Plein-la-goule™”",
+				"Grelots tueurs",
+				"Lame vorpale",
+				"L'amulette à fiabilité relative",
+				"L'autre Anneau",
+				"Mangnifique chapeau",
+				"Masse d'arme de cheville improvisée",
+				"Oreilles factices",
+				"Poignard-o-matic"
+			]
+		}
+	},
+	"4": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [
+				"Fidèle serviteur barde",
+				"Fidèle serviteur Chappendale",
+				"Fidèle serviteur elfe",
+				"Fidèle serviteur en solde",
+				"Fidèle serviteur gnome",
+				"Fidèle serviteur guerrier",
+				"Fidèle serviteur halfelin",
+				"Fidèle serviteur magicien",
+				"Fidèle serviteur nain",
+				"Fidèle serviteur orque",
+				"Fidèle serviteur prètre",
+				"Fidèle serviteur serviteuse gourgandine pas farouche, quoi...",
+				"Fidèle serviteur voleur"
+			],
+			"curses": [
+				"Malédiction ! Charges patronales",
+				"Malédiction ! Monture flatulente",
+				"Malédiction ! Plancher en papier tue-mouche !",
+				"Malédiction ! Rations gatées",
+				"Malédiction ! Tout est relatif !"
+			],
+			"classes": [
+				"Barde",
+				"Guerrier",
+				"Magicien",
+				"Prêtre",
+				"Voleur"
+			],
+			"monsters": [
+				"Bête égarante",
+				"Bugs Beuh-Ni",
+				"Camionosaure (Monstertruckosaurus Rex)",
+				"Crâne en peluche",
+				"Harry Pot-d'terre",
+				"Géant Ninja",
+				"Gelée au caramel fondu",
+				"Godefroy de Court Bouillon",
+				"Gros type velu et barbu qu'on connait pas...",
+				"Katrina",
+				"La nuée des morts-vivants",
+				"Le Mauvais oeil",
+				"Ma marraine Mon parrain la fée",
+				"Oeuf",
+				"Ours bipolaire",
+				"Ours pigeon",
+				"Petit coin d'ombre tout à fait inoffensif",
+				"Petit toutou tout ce qu'il y a de plus ordinaire",
+				"Polly Èdre",
+				"Réveil matin",
+				"Sphinx farceur",
+				"Toison Noire, le Fleau des Sept Mers, brebis égarée",
+				"Touffu, élémentaire de poils",
+				"Toute pitite araignée mignonne",
+				"Vase naze à l'uzi usé",
+				"William Jexpire, auteur du Songe d'une pluie d'XP",
+				"Yack Yack Yack !"
+			],
+			"mounts": [
+				"Aigle de selle",
+				"Dragon de selle",
+				"Gerbille mutante géante de selle",
+				"Loup de selle",
+				"Poulet de selle",
+				"Puissant destrier",
+				"Raptor de selle",
+				"Tigre de selle",
+				"Tortue de selle"
+			],
+			"races": [
+				"Elfe",
+				"Gnome",
+				"Halfelin",
+				"Nain",
+				"Orque",
+				"Sang-mêlé"
+			],
+			"upgrades": [
+				"...jouant de la cornemuse",
+				"...surgi de l'enfer",
+				"À dents de sable",
+				"Affamé",
+				"Big Joe",
+				"Demi...",
+				"En armure",
+				"Furtif",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Résistant à la magie",
+				"Super Munchkin",
+				"Tricheur !"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"...du Destin",
+				"Ailes de précipitation",
+				"Bride lance-flammes",
+				"Brillant",
+				"Crise d'Intelligence aiguë",
+				"Crise de Jalousie",
+				"Maîtrise de gestion en management",
+				"Mécano-...",
+				"Potion de volubilité",
+				"Sanfouane et l'oie",
+				"Soudoyer un Fidèle serviteur"
+			],
+			"levels": [
+				"Piller son propre temple",
+				"Réveiller un volcan sous la ville ennemie",
+				"S'habiller comme son personnage",
+				"Tuer des nazis",
+				"Tuer un Fidèle Serviteur",
+				"Tuer une Monture"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de souhait",
+				"Appât à monture “Oui-y-s'casse”",
+				"Chant nuptial",
+				"Dé Pipé",
+				"Potin de changement de sexe",
+				"Poudre rétrécissante"
+			],
+			"stuffs": [
+				"Arc souffrant d'hypertension",
+				"Armure en épluchures de patates",
+				"Armure en solde",
+				"Batte de braise-ball",
+				"Bottes Deux Chevals",
+				"Casque de fier-à-bras",
+				"Combat à pied nus",
+				"Faux et usage de faux",
+				"Masque d'Halloween",
+				"Planche à repasser trepasser",
+				"Pulvérisatueur"
+			]
+		}
+	},
+	"5": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [
+				" Fidèle serviteur porteur de torche"
+			],
+			"curses": [
+				"Malédiction ! Catalogue",
+				"Malédiction ! “Et moi j'ai... un vieux caillou...”",
+				"Malédiction ! Musette de rétention brachiale inopinée",
+				"Malédiction ! Perte du dé porte-bonheur",
+				"Malédiction ! Pluie de belettes",
+				"Malédiction ! Poupée vaudou",
+				"Malédiction ! Règles arbitrairement égalitaires",
+				"Malédiction ! Souhait prononcé sur un coup de tête",
+				"Malédiction ! Souhaiter qu'on vous retire une épine du pied"
+			],
+			"classes": [
+				"Rôdeur",
+				"Rôdeur",
+				"Rôdeur",
+				"Rôdeur",
+				"Rôdeur",
+				"Rôdeur"
+			],
+			"monsters": [
+				"Anubis",
+				"Blobgobelin",
+				"Boeuf Pour-qui-l'gnon",
+				"Bonus de base Bonnasse de bouse à l'attaque",
+				"Clowns morts-vivants",
+				"Coq qu'est triste",
+				"Cyclope",
+				"Druide",
+				"Ex di MJ",
+				"Fée des dents",
+				"Insectricheurs",
+				"Karateka Rapace (spectral, qui plus est...)",
+				"La colère du Khan",
+				"La main du destin",
+				"Les J'tue-mpfs",
+				"Les frères Grimm",
+				"Les trois munchquetaires",
+				"Mâchoire de verre",
+				"Monstre (subtilement) caché sous le lit",
+				"Orque perdu",
+				"Pou de foudre",
+				"Pouletergeist",
+				"Rapace caparaçonne",
+				"Salaad",
+				"Téléprospecteur",
+				"Tout ptit dieu",
+				"Vendeur de montures d'occasion"
+			],
+			"mounts": [
+				"Araignée de selle",
+				"Monture en solde",
+				"Tapis volant"
+			],
+			"races": [
+				"Elfe",
+				"Gnome",
+				"Halfelin",
+				"Nain",
+				"Orque",
+				"Sang-mêlé"
+			],
+			"upgrades": [
+				"À deux têtes",
+				"Au sourire sinistre",
+				"Gonflable",
+				"Monstre Érrant",
+				"Monstre Érrant",
+				"Politiquement correct",
+				"Super Munchkin",
+				"Tricheur"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"Armure de plaques chauffantes",
+				"Baron de Münchkinhausen",
+				"Bénédiction",
+				"Coup critique",
+				"Deux pieds de plus",
+				"Enflammé",
+				"Faux sein saint en plastique",
+				"Il ne peut en rester qu'un et c'est moi",
+				"Invitation à prendre une bière",
+				"Judicieusement interchangeable",
+				"Plaque personnalisée",
+				"Port des armures légères... Peur des ordres d'une mégère",
+				"Tuning de monture"
+			],
+			"levels": [
+				"Écrire l'histoire de votre personnage",
+				"Faire cracher du soda par le nez au MJ",
+				"Faire rire le MJ",
+				"Jeter un froid",
+				"Nouveau MJ crédule",
+				"Rire des répliques empruntées par le MJ aux Monty Python",
+				"Trouver l'entrée secrète"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de Souhait",
+				"Anneau de Souhait",
+				"Corde de saut à l'élastique",
+				"Dé pipé",
+				"Eau gazeuse bénite",
+				"Pierre fine aux os de poil",
+				"Potion de torero d'eau de terreur",
+				"Sandwich aux épinards"
+			],
+			"stuffs": [
+				"Arbre de transmission de gnons",
+				"Arc de désequilibre éhonté des combats",
+				"Armure d'écuelles",
+				"Armure lourde gourde",
+				"Bottes de sept dieux",
+				"Bouclier humain",
+				"Casque de l'horreur indicible et effroyablement terrifiante",
+				"Casque invisible",
+				"Cloche à gros mage",
+				"Cordon d'insécurité",
+				"Cotte de mailles en spandex",
+				"Diadème de dextérité suspecte",
+				"Épée à trois mains",
+				"Espadon",
+				"Épée courte",
+				"Harnois à la noix",
+				"Joli petit haut perforant",
+				"LA hache",
+				"Lame vorpale morfale",
+				"Marteau de guerre de destruction massive",
+				"Moulin à gruyère",
+				"Pantoufles de P'yen-Hu",
+				"Poulaines",
+				"Sceptre d'éveil Playsghoule©"
+			]
+		}
+	},
+	"6": {
+		"donjons": {
+			"fields": [
+				"Chez Joe, le donjon à prix discount !",
+				"Donjon au sol en papier tue-mouche dégueu",
+				"Donjon de l'effet manga libidineux",
+				"Donjon de la prodigalité du MD",
+				"Donjon de la révoltante mesquinerie",
+				"Donjon de la surabondance elfique",
+				"Donjon de la tricherie encore plus éhontée que d'habitude",
+				"Donjon des adversaires en guimauve",
+				"Donjon des malédictions contagieuses",
+				"Donjon des monstres militants",
+				"Donjon des morts-vivants omniprésents",
+				"Donjon des prouesses inattendues",
+				"Donjon des races ridicules",
+				"Donjon des règles d'emcombrement truquées",
+				"Donjon du butin opulent",
+				"Donjon du changement de sexe",
+				"Donjon du meurtre obligatoire",
+				"Donjon du petit effort en plus...",
+				"Donjon du talent prodigieux",
+				"Donjon du trépas létal mortel qui tue"
+			]
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [],
+			"classes": [],
+			"monsters": [],
+			"mounts": [],
+			"races": [],
+			"upgrades": [],
+			"warps": [
+				"Éboulement",
+				"Éboulement",
+				"La fortune sourit aux gros nuls",
+				"La fortune sourit aux gros nuls",
+				"Passage étroit",
+				"Passage étroit",
+				"Tous les chemin mènent à Rome",
+				"Tous les chemin mènent à Rome",
+				"Tourner en rond",
+				"Tourner en rond",
+				"Porte secrète",
+				"Porte secrète",
+				"Donjon néttoyé !",
+				"Donjon néttoyé !",
+				"Téléportation !",
+				"Téléportation !"
+			]
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [],
+			"levels": [],
+			"munchkinomicon": [],
+			"objects": [],
+			"stuffs": []
+		}
+	},
+	"7o": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction! Et ne m'appelez pas Ginette",
+				"Malédiction! Expiration de garantie !",
+				"Malédiction! Peinture au plomb !"
+			],
+			"classes": [],
+			"monsters": [],
+			"mounts": [],
+			"races": [
+				"Chimère",
+				"Sang-mêlé",
+				"Sang-mêlé",
+				"Sang-méli-mélo"
+			],
+			"upgrades": [
+				"... et ses petits copains",
+				"... et ses petits copains",
+				"Dans de beaux draps",
+				"Indiciblement...",
+				"Invisible",
+				"Meurtrier",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Monstre Errant",
+				"Sauvage",
+				"Séduisant(e)",
+				"Standard",
+				"Super Maousse Munchkin",
+				"Super Munchkin",
+				"Super Munchkin",
+				"Tricheur !",
+				"Tricheur !",
+				"Tricheur !",
+				"Tricheur !",
+				"Tromperie dur la marchandise",
+				"Ultra Munchkin",
+				"Vraiment très...",
+				"Voleur de niveaux"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"...À coque en acier renforcé",
+				"...À talons aiguille",
+				"...Au multiples bouts pointus et tranchants",
+				"...Autonettoyant(e)",
+				"...Monté sur ressorts",
+				"...Perce-armure",
+				"...Plaqué or",
+				"...Renforcé(e)",
+				"...Thème musical",
+				"...Ventilé",
+				"Deux pieds dans le même sabot sabots sur le même pied",
+				"Oh le gros tricheuuuuuuuur!",
+				"Triche éhontée",
+				"Triche éhontée"
+			],
+			"levels": [],
+			"munchkinomicon": [],
+			"objects": [
+				"1001 astuces de survie en donjon",
+				"Anneau de Souhait",
+				"Dé Pipé",
+				"Potion magique de transmutation d'ADN",
+				"Sou porte-bonheur",
+				"Talisman porte-bonheur",
+				"Talisman porte-bonheur"
+			],
+			"stuffs": [
+				"Bon pour des objets gratuits",
+				"Costume ne laissant (quasiment) rien à l'imagination",
+				"Trou portatif"
+			]
+		}
+	},
+	"7": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction! Et ne m'appelez pas Ginette",
+				"Malédiction! Le MJ fait respecter les règles !"
+			],
+			"classes": [],
+			"monsters": [
+				"Empreintes de pas",
+				"Frites",
+				"Gérant de magasin de jeux",
+				"Graffiti",
+				"Linge sale",
+				"Marionnette chaussette",
+				"Mauvais odeur",
+				"Petits soldats en plastique",
+				"Silhouette en carton",
+				"Smiley",
+				"Télévision"
+			],
+			"mounts": [],
+			"races": [
+				"Chimère",
+				"Sang-mêlé",
+				"Sang-mêlé",
+				"Sang-mêlé",
+				"Sang-méli-mélo",
+				"Sang-méli-mélo",
+				"Sang-méli-mélo"
+			],
+			"upgrades": [],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"À revêtement en Téflon®",
+				"À coque en acier renforcé",
+				"À talons aiguille",
+				"Au multiples bouts pointus et tranchants",
+				"Autonettoyant(e)",
+				"Moi, je monte jusqu'à II",
+				"Monté sur ressorts",
+				"Oh le gros tricheuuuuuuuur!",
+				"Perce-armure",
+				"Plaqué or",
+				"Pour me prendre mon jouet, il faudra l'arracher à mes mains froides et sans vie",
+				"Pour me prendre mon jouet, il faudra l'arracher à mes mains froides et sans vie",
+				"Pour me prendre mon jouet, il faudra l'arracher à mes mains froides et sans vie",
+				"Renforcé(e)",
+				"Tonitruant",
+				"Triche éhontée",
+				"Triche éhontée",
+				"Triche éhontée",
+				"Ventilé"
+			],
+			"levels": [
+				"Nourrir l'obsession du MJ pour les dés",
+				"Retourner le cerveau du MJ",
+				"Se réincarner sans mourir",
+				"Zieuter le scénario"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"1001 astuces de survie en donjon",
+				"Dé Pipé",
+				"Dé Pipé",
+				"Mites dressées",
+				"Munchkin gonflable",
+				"Parchemin de désamélioration",
+				"Potion de taille démesurée",
+				"Potion magique de transmutation d'ADN",
+				"Sou porte-bonheur",
+				"Talisman porte-bonheur",
+				"Talisman porte-bonheur",
+				"Talisman porte-bonheur",
+				"Talisman porte-bonheur",
+				"Vendre père et mère"
+			],
+			"stuffs": [
+				"Bon pour des objets gratuits",
+				"Costume ne laissant (quasiment) rien à l'imagination",
+				"Deux pieds dans le même sabot sabots sur le même pied",
+				"Thème musical",
+				"Trou portatif"
+			]
+		}
+	},
+	"8": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [
+				"Fidèle serviteur Centaure",
+				"Fidèle serviteur Homme-lézard",
+				"Fidèle Serviteur Médium"
+			],
+			"curses": [
+				"Malédiction ! Appel de la forêt",
+				"Malédiction ! Avoine avarée !",
+				"Malédiction ! Bobos",
+				"Malédiction ! Curieuse impression que les choses vont mal se passer...",
+				"Malédiction ! Dé-coiffe-é",
+				"Malédiction ! Dérive génétique",
+				"Malédiction! Des fourmis (géantes rouges et carnivores) dans les jambes",
+				"Malédiction! Gasterocotte de mailles",
+				"Malédiction ! Perte du sens de l'orientation sexuelle",
+				"Malédiction ! Petits doigts gourds, gluants et gauches",
+				"Malédiction ! Poussée d'incompétence",
+				"Malédiction! Ta race !",
+				"Malédiction! Tu n'étais pas l'Élu",
+				"Malédiction! Vide !"
+			],
+			"classes": [],
+			"monsters": [
+				"Empreintes de pas",
+				"Frites",
+				"Gérant de magasin de jeux",
+				"Graffiti",
+				"Linge sale",
+				"Marionnette chaussette",
+				"Mauvais odeur",
+				"Petits soldats en plastique",
+				"Silhouette en carton",
+				"Smiley",
+				"Télévision"
+			],
+			"mounts": [
+				"Bélier de selle",
+				"Bouc et mystère",
+				"Licorne de selle",
+				"Phénix de selle"
+			],
+			"races": [
+				"Ancien",
+				"Ancien",
+				"Ancien",
+				"Centaure",
+				"Centaure",
+				"Centaure",
+				"Centaure",
+				"Centaure",
+				"Centaure",
+				"Centaure",
+				"D'élite",
+				"D'élite",
+				"D'élite",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Homme-lézard",
+				"Légendaire",
+				"Légendaire",
+				"Légendaire",
+				"Sang-mêlé",
+				"Sang-mêlé"
+			],
+			"upgrades": [
+				"Barabare",
+				"Grincheux",
+				"Névrosé",
+				"Obsessionnel",
+				"Placide",
+				"Super Munchkin",
+				"Tricheur !"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"Avatar"
+			],
+			"levels": [
+				"À quelque chose malheur est bon",
+				"Acheter de nouvelles figurines au MJ",
+				"Arriver en avance à la partie",
+				"Centaure et Sans Reproche",
+				"Regarder des films de monstres japonais",
+				"Trahir le groupe"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Anneau de Souhait",
+				"Anneau qui donne la pêche !",
+				"Dé pipé",
+				"Dé ultrapipé",
+				"Sirop des Râles",
+				"Sirop des vrais bonhommes"
+			],
+			"stuffs": [
+				"Accessoires assortis",
+				"Appeau à cheval",
+				"Avertisseur sonore absolument pas kitsch",
+				"Bardes",
+				"Bottes en peau de mammifère",
+				"Chaussures pour voyager à pinces",
+				"Cotte de mailles d'écailles",
+				"Couverture d'invisibilité",
+				"Cravache enragée",
+				"Encensoir de censure",
+				"Halo",
+				"Lance et casque magiques",
+				"Marmite de cassoulet William Saurien",
+				"Masse à ailettes",
+				"Mattraque du matin...",
+				"Mattraque du soir...",
+				"Oeillères",
+				"Plumes de cheval",
+				"Pull-over de Noël",
+				"Serpent à sonnette des toilettes",
+				"Truc sphérique, pointu et sacré",
+				"Turbo"
+			]
+		}
+	},
+	"n": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction : Joyeux Facheux Noël",
+				"Malédiction ! Pas la bonne taille !"
+			],
+			"classes": [],
+			"monsters": [
+				"Aides du père Noël",
+				"Ange de Bonté (mais aux manières un tantinet brutales)",
+				"Anti-Noël",
+				"Bergers allemands",
+				"Bon Anges de Neige",
+				"Casse-noisette",
+				"Camelot de Noěl",
+				"Dinde de Noël",
+				"Esprits de Noël",
+				"Éléphant blanc",
+				"Jouets défectueux",
+				"Krampus",
+				"L'enfant au (satané bon sang d')Tambour (qui casse les oreilles)",
+				"Le Crado de Noël",
+				"Le Vent d'Hiver",
+				"Les p'tits rennes qui voient rouge",
+				"Les trois rois mafieux",
+				"Mère Noël",
+				"Perce oreilles",
+				"Père Noël",
+				"Petits chanteurs à la Noix de Bois",
+				"Petit tambour",
+				"Pôle Mords Express",
+				"Sapin de Noël",
+				"Scrooge",
+				"Spectre du Noël présent des présents de Noël"
+			],
+			"mounts": [],
+			"races": [],
+			"upgrades": [
+				"... armé d'une bûche de Noël",
+				"Gentil",
+				"Gentil",
+				"Joyeux",
+				"Police des vacances",
+				"Quand on perd Noël...",
+				"Vilain",
+				"Vilain"
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": []
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [],
+			"levels": [
+				"Affrontez les fêtes de faim damnée",
+				"Avec tes souhaits par milliers",
+				"Lait de poule très légèrement alcoolisé"
+			],
+			"munchkinomicon": [],
+			"objects": [
+				"Boule de neige",
+				"Coincé dans la cheminée"
+			],
+			"stuffs": [
+				"Boîte à chaussures",
+				"Bottes de neige",
+				"Bottes de Père Noël",
+				"Boulet de canon charbon",
+				"Cane à sucre (d'orge)",
+				"Cake au fruit un tout petit peu rassis, mais vraiment un tout petit peu",
+				"Chandelle festive",
+				"Chausson de Noël",
+				"Chapeau de Père Noël",
+				"Chapeau de Renne",
+				"Écharpe",
+				"Étoile de Noël",
+				"Mât de Cocagne qui cogne",
+				"Mon beau gourdin",
+				"Mon petit soulier (innocent et parfaitement inoffensif, promis)",
+				"Ôôôô tannen bombe, ôôô tannen bombe...",
+				"Pagne en Guirlande",
+				"Papier crado",
+				"Pic à de glace"
+			]
+		}
+	},
+	"m": {
+		"donjons": {
+			"fields": []
+		},
+		"doors": {
+			"acolytes": [],
+			"curses": [
+				"Malédiction ! Condamné par le Destin !"
+			],
+			"classes": [
+				"Guerrier"
+			],
+			"monsters": [
+				"Golem de savon",
+				"Jeanne d'Orque",
+				"Peau de vache de la cour de récré"
+			],
+			"mounts": [],
+			"races": [
+				"Elfe",
+				"Haut",
+				"Haut",
+				"Haut",
+				"Maître",
+				"Maître",
+				"Maître",
+				"Sombre",
+				"Sombre",
+				"Sombre"
+			],
+			"upgrades": [
+				"... et ses petits copains",
+				"... et ses petits copains",
+				"De Hollywood",
+				"Enragé",
+				"Indiciblement",
+				"Invisible",
+				"Meurtrier",
+				"Miniature",
+				"Plein de préjugés",
+				"Sauvage",
+				"Séduisant(e)",
+				"Standard",
+				"Tricheur !",
+				"Tromperie sur la marchandise",
+				"Ultime",
+				"Voleur de niveaux",
+				"Vraiment très..."
+			],
+			"warps": []
+		},
+		"spells": {
+			"books": [
+				"À vot' bon coeur !",
+				"Gloire contagieuse",
+				"Hachoir occulte",
+				"Invocation de horde",
+				"Invocation du livre",
+				"Le pouvoir par la terreur",
+				"La Crypte de Zyvakomanksébo",
+				"Marque-page",
+				"Mettez-y un peu du vôtre",
+				"Monstre, je t'ordonne de paraître !",
+				"Ni vu ni connu j't'embrouille",
+				"Résurrection",
+				"Sortilèche",
+				"Un pour tous, tous pour moi"
+			]
+		},
+		"treasures": {
+			"acolytes": [],
+			"actions": [
+				"Chutte de rochers : pas de survivant"
+			],
+			"levels": [
+				"Recalculez vos XP",
+				"Un coup de polsh sur le matos !"
+			],
+			"munchkinomicon": [
+				"Munchkinomicon"
+			],
+			"objects": [
+				"Dé ultrapipé",
+				"Dé ultrapipé",
+				"Dé ultrapipé",
+				"Dé ultrapipé",
+				"Potion d'éructation déplacée",
+				"Potion de continuité rétroactive"
+			],
+			"stuffs": [
+				"Bottes de pas de deux",
+				"Enclume",
+				"Greffier Griffu Grognon à une main",
+				"Tondeuse à gazon"
+			]
+		}
+	}
+}

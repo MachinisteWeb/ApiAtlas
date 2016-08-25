@@ -2,8 +2,7 @@
 exports.changeVariation = function (params, mainCallback) {
 	var NA = this,
 		variation = params.variation,
-		http = NA.modules.http,
-		chain = "";
+		http = NA.modules.http;
 
 	http.get({
   		hostname: "www.lesieur.name",
@@ -11,8 +10,13 @@ exports.changeVariation = function (params, mainCallback) {
 	  	path: "/api/comments/",
 	  	agent: false
 	}, function (response) {
+		var data = "",
+			chain = "";
 		response.on("data", function (chunk) {
-			JSON.parse(chunk).forEach(function (comment) {
+		  	data += chunk;
+		});
+		response.on('end', function(){
+			JSON.parse(data).forEach(function (comment) {
 				chain += `<div>
 					<h4>
 						${comment.id}
@@ -26,6 +30,8 @@ exports.changeVariation = function (params, mainCallback) {
 			variation.comments = chain;
 			mainCallback(variation);
 		});
+
+
 	}).on('error', function () {
 		variation.commentsList = "";
 		mainCallback(variation);

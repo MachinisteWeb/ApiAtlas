@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Lesieur's API</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
     </head>
@@ -10,7 +13,8 @@
         <div class="jumbotron">
             <div class="container">
                 <h1>API Atlas</h1>
-                <p>API Atlas is an example of distant API provided with NodeAtlas.</p>
+                <p>API Atlas is an example of distant API provided with <a href="https://github.com/Haeresis/NodeAtlas">NodeAtlas</a>.</p>
+                <p><a href="https://github.com/Haeresis/ApiAtlas">See code source this page here</a>.</p>
             </div>
         </div>
         <div class="container">
@@ -28,7 +32,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h3>REST Example</h3>
+                    <h3>Comments (REST Example)</h3>
                     `GET /api/comments/`
                     <ul>
                         <li>`GET /api/comments/:id/`</li>
@@ -37,11 +41,92 @@
                         <li>`DELETE /api/comments/`:id/</li>
                     </ul>
                 </li>
+                <li>
+                    <h3>Game (Depth example)</h3>
+                    <ul>
+                        <li>
+                            <h4>Munchkin</h4>
+                            `GET /api/game/munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>n</strong>)</em>
+                        </li>
+                        <li>
+                            <h4>Super Munchkin</h4>
+                            `GET /api/game/super-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: only <strong>1</strong>)</em>
+                        </li>
+                        <li>
+                            <h4>Star Munchkin</h4>
+                            `GET /api/game/star-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
+                        </li>
+                        <li>
+                            <h4>Munchkin Zombies</h4>
+                            `GET /api/game/munchkin-zombies/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
+                        </li>
+                        <li>
+                            <h4>Munchkin Cthulhu</h4>
+                            `GET /api/game/munchkin-cthulhu/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>4</strong>)</em>
+                        </li>
+                    </ul>
+                    <br>
+                    <dl>
+                        <dt>&lt;extension&gt;</dt>
+                        <dd>
+                            <strong>1</strong>,
+                            <strong>2</strong>,
+                            <strong>3</strong>,
+                            <strong>4</strong>,
+                            <strong>5</strong>,
+                            <strong>6</strong>,
+                            <strong>7</strong>,
+                            <strong>8</strong>,
+                            <strong>m</strong>,
+                            <strong>n</strong>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>&lt;stack&gt;</dt>
+                        <dd>
+                            <strong>donjons</strong>,
+                            <strong>doors</strong>,
+                            <strong>treasures</strong>,
+                            <strong>spells</strong>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>&lt;type&gt;</dt>
+                        <dd>
+                            <em>donjons:</em>
+                            <strong>fields</strong> <br>
+                            <em>doors:</em>
+                            <strong>acolytes</strong>,
+                            <strong>classes</strong>,
+                            <strong>curses</strong>,
+                            <strong>madnesses</strong>,
+                            <strong>mojos</strong>,
+                            <strong>monsters</strong>,
+                            <strong>mounts</strong>,
+                            <strong>origins</strong>,
+                            <strong>powers</strong>,
+                            <strong>races</strong>,
+                            <strong>rooms</strong>,
+                            <strong>upgrades</strong>,
+                            <strong>warps</strong><br>
+                            <em>spells:</em>
+                            <strong>books</strong><br>
+                            <em>treasures:</em>
+                            <strong>acolytes</strong>,
+                            <strong>actions</strong>,
+                            <strong>levels</strong>,
+                            <strong>munchkinomicon</strong>,
+                            <strong>objects</strong>,
+                            <strong>stuffs</strong>
+                        </dd>
+                    </dl>
+                    <em>Note: if a command redirect you here, it's because `&lt;type&gt;` do not exist in this `&lt;stack&gt;` or Game.</em>
+                </li>
             </ul>
-            <h2>Example</h2>
+            <h2>Call Example from External Projects</h2>
             <div class="row">
                 <div class="col-sm-6">
-                    <h3>Client Side - with Vanilla JS</h3>
+                    <h3>Client Side - with <a href="https://github.com/Haeresis/vanilla-js">Vanilla JS</a></h3>
                     <p>`GET http://www.lesieur.name/api/comments/` </p>
                     <h4>Code</h4>
                     <pre><code class="js">/* jslint browser: true */
@@ -73,7 +158,7 @@ xhr.send(null);</code></pre>
                     </ul>
                 </div>
                 <div class="col-sm-6">
-                    <h3>Server Side - with NodeAtlas</h3>
+                    <h3>Server Side - with <a href="https://github.com/Haeresis/NodeAtlas">NodeAtlas</a></h3>
                     <p>`GET http://www.lesieur.name/api/comments/` </p>
                     <h4>Code</h4>
                     <pre><code class="js">/* jslint node: true, esversion: 6 */
