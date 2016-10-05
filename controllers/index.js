@@ -5,8 +5,8 @@ exports.changeVariation = function (params, mainCallback) {
 		http = NA.modules.http;
 
 	http.get({
-  		hostname: "www.lesieur.name",
-	  	port: 80,
+  		hostname: "localhost",
+	  	port: 7765,
 	  	path: "/api/comments/",
 	  	agent: false
 	}, function (response) {
@@ -17,23 +17,20 @@ exports.changeVariation = function (params, mainCallback) {
 		});
 		response.on('end', function(){
 			JSON.parse(data).forEach(function (comment) {
-				chain += `<div>
+				chain += `<li>
 					<h4>
 						${comment.id}
 					</h4>
 					<p>
 						${comment.message}
 					</p>
-				</div>`;
+				</li>`;
 			});
-
 			variation.comments = chain;
 			mainCallback(variation);
 		});
-
-
 	}).on('error', function () {
-		variation.commentsList = "";
+		variation.comments = "";
 		mainCallback(variation);
 	});
 };

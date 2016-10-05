@@ -190,7 +190,7 @@ exports.changeVariation = function (params, mainCallback) {
             mainCallback(variation);
         });
     }).on('error', function () {
-        variation.commentsList = "";
+        variation.comments = "";
         mainCallback(variation);
     });
 };</code></pre>
