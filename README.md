@@ -60,7 +60,7 @@ Le site sera accessible ici :
 
 ## Exemple en ligne ##
 
-Vous pouvez voir fonctionner ce repository à l'adresse : [http://blog.lesieur.name/api/](http://blog.lesieur.name/api/).
+Vous pouvez voir fonctionner ce repository à l'adresse : [http://www.lesieur.name/api/](http://www.lesieur.name/api/).
 
 
 
@@ -122,4 +122,4 @@ The website will be to:
 
 ### Online Example ###
 
-You can see this repository running at: [http://blog.lesieur.name/api/](http://blog.lesieur.name/api/).
+You can see this repository running at: [http://www.lesieur.name/api/](http://www.lesieur.name/api/).
