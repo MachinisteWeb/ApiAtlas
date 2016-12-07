@@ -6,9 +6,9 @@ website.components = {};
 (function (publics) {
 	"use strict";
 
-	website.components.mongoose = require('../components/controllers/mongoose');
+	website.components.mongoose = require('./modules/mongoose');
 
-	publics.loadModules = function () {
+	publics.setModules = function () {
 		var NA = this,
 			path = NA.modules.path;
 
@@ -17,17 +17,17 @@ website.components = {};
 		NA.modules.RedisStore = require('connect-redis');
 		NA.modules.marked = require('marked');
 		NA.modules.guid = require('guid');
-		NA.modules.common = require(path.join(NA.websitePhysicalPath, NA.webconfig.variationsRelativePath, 'common.json'));
+		NA.modules.common = require(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, 'common.json'));
 	};
 
 	publics.setConfigurations = function (next) {
 		var NA = this,
 			mongoose = NA.modules.mongoose;
 
-		website.components.mongoose.initialisation(mongoose, 'mongodb://127.0.0.1:27017/blog', function (mongoose) {
+		//website.components.mongoose.initialisation(mongoose, 'mongodb://127.0.0.1:27017/blog', function (mongoose) {
 			publics.mongooseSchemas(mongoose);
 			next();
-		});
+		//});
 	};
 
 	publics.mongooseSchemas = function (mongoose) {
@@ -40,19 +40,19 @@ website.components = {};
 		mongoose.model('category', website.schemas.category, 'category');
 	};
 
-	publics.setSessions = function (callback) {
+	publics.setSessions = function (next) {
         var NA = this,
         	session = NA.modules.session,
         	RedisStore = NA.modules.RedisStore(session);
 
         NA.sessionStore = new RedisStore();
 
-		callback();
+		next();
 	};
 
 }(website));
 
-exports.loadModules = website.loadModules;
+exports.setModules = website.setModules;
 exports.setSessions = website.setSessions;
 exports.setConfigurations = website.setConfigurations;
 exports.changeVariation = website.changeVariation;

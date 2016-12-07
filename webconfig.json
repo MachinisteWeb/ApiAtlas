@@ -1,5 +1,5 @@
 {
-	"httpPort": 7765,
+	"headers": { "Access-Control-Allow-Origin": "*" },
 	"staticOptions": {
         "maxAge": 0
     },

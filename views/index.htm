@@ -13,7 +13,7 @@
         <div class="jumbotron">
             <div class="container">
                 <h1>API Atlas</h1>
-                <p>API Atlas is an example of distant API provided with <a href="https://github.com/Haeresis/NodeAtlas">NodeAtlas</a>.</p>
+                <p>API Atlas is an example of distant API provided with <a href="https://node-atlas.js.org/">NodeAtlas</a>.</p>
                 <p><a href="https://github.com/Haeresis/ApiAtlas">See code source this page here</a>.</p>
             </div>
         </div>
@@ -46,23 +46,23 @@
                     <ul>
                         <li>
                             <h4>Munchkin</h4>
-                            `GET /api/game/munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>n</strong>)</em>
+                            `GET /api/games/munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>n</strong>)</em>
                         </li>
                         <li>
                             <h4>Super Munchkin</h4>
-                            `GET /api/game/super-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: only <strong>1</strong>)</em>
+                            `GET /api/games/super-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: only <strong>1</strong>)</em>
                         </li>
                         <li>
                             <h4>Star Munchkin</h4>
-                            `GET /api/game/star-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
+                            `GET /api/games/star-munchkin/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
                         </li>
                         <li>
                             <h4>Munchkin Zombies</h4>
-                            `GET /api/game/munchkin-zombies/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
+                            `GET /api/games/munchkin-zombies/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>2</strong>)</em>
                         </li>
                         <li>
                             <h4>Munchkin Cthulhu</h4>
-                            `GET /api/game/munchkin-cthulhu/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>4</strong>)</em>
+                            `GET /api/games/munchkin-cthulhu/[&lt;extension&gt;/][&lt;stack&gt;/][&lt;type&gt;/]` <em>(extension: <strong>1</strong> to <strong>4</strong>)</em>
                         </li>
                     </ul>
                     <br>
@@ -196,7 +196,7 @@ exports.changeVariation = function (params, mainCallback) {
 };</code></pre>
                     <h4>Result</h4>
                     <ul>
-                        <%- comments %>
+                        <?- comments ?>
                     </ul>
                 </div>
             </div>

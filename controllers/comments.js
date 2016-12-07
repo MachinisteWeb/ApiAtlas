@@ -1,5 +1,5 @@
 /* jslint node: true */
-exports.changeVariation = function (params, mainCallback) {
+exports.changeVariation = function (params, next) {
 	var NA = this,
 		variation = params.variation,
 		response = params.response,
@@ -17,5 +17,5 @@ exports.changeVariation = function (params, mainCallback) {
 		}
 	}
 
-	mainCallback(variation);
+	next(variation);
 };

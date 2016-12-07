@@ -1,8 +1,8 @@
 # ApiAtlas #
 
-Version : 0.1
+Version : 0.2
 
-NodeAtlas Version minimale : 1.4.x
+NodeAtlas Version minimale : 2.0.x
 
 **For an international version of this README.md, [see below](#international-version).**
 
@@ -10,7 +10,7 @@ NodeAtlas Version minimale : 1.4.x
 
 ## Avant-propos ##
 
-ApiAtlas est un exemple d'API distante REST faite en Node.js et développé avec [NodeAtlas](http://haeresis.github.io/NodeAtlas/).
+ApiAtlas est un exemple d'API distante REST faite en Node.js et développé avec [NodeAtlas](https://node-atlas.js.org/).
 
 Il peut vous servir d'inspiration pour créer vos propres API distantes !
 
@@ -18,7 +18,7 @@ Il peut vous servir d'inspiration pour créer vos propres API distantes !
 
 ## Lancer le site en local ##
 
-Pour faire tourner les APIs en local, il vous faudra installer [NodeAtlas](http://haeresis.github.io/NodeAtlas/) sur votre poste de développement.
+Pour faire tourner les APIs en local, il vous faudra installer [NodeAtlas](https://node-atlas.js.org/) sur votre poste de développement.
 
 Vous devrez également installer :
 - une base de donnée MongoDB sur le serveur de l'application.
@@ -72,7 +72,7 @@ Vous pouvez voir fonctionner ce repository à l'adresse : [http://www.lesieur.na
 
 ### Overview ###
 
-ApiAtlas is an example of Distant REST API in Node.js running with [NodeAtlas](http://haeresis.github.io/NodeAtlas/).
+ApiAtlas is an example of Distant REST API in Node.js running with [NodeAtlas](https://node-atlas.js.org/).
 
 It used as inspiration to create your own distant API!
 
@@ -80,7 +80,7 @@ It used as inspiration to create your own distant API!
 
 ### Run the website in local server ###
 
-To run the APIs in local, you must install [NodeAtlas](http://haeresis.github.io/NodeAtlas/) on your development machine.
+To run the APIs in local, you must install [NodeAtlas](https://node-atlas.js.org/) on your development machine.
 
 You will also need to install:
 - a MongoDB database on the application server.

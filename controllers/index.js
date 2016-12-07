@@ -1,5 +1,5 @@
 /* jslint node: true, esversion: 6 */
-exports.changeVariation = function (params, mainCallback) {
+exports.changeVariation = function (params, next) {
 	var NA = this,
 		variation = params.variation,
 		http = NA.modules.http;
@@ -27,10 +27,10 @@ exports.changeVariation = function (params, mainCallback) {
 				</li>`;
 			});
 			variation.comments = chain;
-			mainCallback(variation);
+			next(variation);
 		});
 	}).on('error', function () {
 		variation.comments = "";
-		mainCallback(variation);
+		next(variation);
 	});
 };

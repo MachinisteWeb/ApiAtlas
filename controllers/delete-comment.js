@@ -1,5 +1,5 @@
 /* jslint node: true */
-exports.changeVariation = function (params, mainCallback) {
+exports.changeVariation = function (params, next) {
 	var NA = this,
 		fs = NA.modules.fs,
 		path = NA.modules.path,
@@ -22,10 +22,10 @@ exports.changeVariation = function (params, mainCallback) {
 			error();
 		}
 		variation.specific.splice(position, 1);
-		fs.writeFile(path.join(NA.websitePhysicalPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(variation.specific, null, "    "));
+		fs.writeFile(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(variation.specific, null, "    "));
 	} else {
 		error();
 	}
 
-	mainCallback(variation);
+	next(variation);
 };

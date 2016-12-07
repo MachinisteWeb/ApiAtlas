@@ -1,129 +1,95 @@
 {
 	"/comments/(:id/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "comments.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/comments/:idput/": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "update-comment.js",
 		"putSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/comments/:id/": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "delete-comment.js",
 		"deleteSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/comments/": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "create-comment.js",
 		"postSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/cv/(:subpart/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "cv.json",
 		"controller": "cv.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/games/munchkin-cthulhu/(:game/)?(:stack/)?(:type/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "munchkin-cthulhu.json",
 		"controller": "munchkin.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/games/star-munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "star-munchkin.json",
 		"controller": "munchkin.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/games/super-munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "super-munchkin.json",
 		"controller": "munchkin.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/games/munchkin-zombies/(:game/)?(:stack/)?(:type/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "munchkin-zombies.json",
 		"controller": "munchkin.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/games/munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"variation": "munchkin.json",
 		"controller": "munchkin.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/blog/articles/": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"controller": "blog/articles.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/blog/categories/": {
-		"template": "default.htm",
+		"view": "default.htm",
 		"controller": "blog/categories.js",
 		"getSupport": true,
-		"headers": {
-            "Content-Type": "application/json; charset=utf-8",
-  			"Access-Control-Allow-Origin": "*"
-        }
+        "mimeType": "application/json"
 	},
 	"/": {
-		"template": "index.htm",
+		"view": "index.htm",
 		"controller": "index.js",
-		"getSupport": true
+		"getSupport": true,
+		"headers": { "Access-Control-Allow-Origin": false }
 	},
 	"/page-inexistante/": {
 		"redirect": "/",
-		"statusCode": 302
+		"statusCode": 302,
+		"headers": { "Access-Control-Allow-Origin": false }
 	}
 }
