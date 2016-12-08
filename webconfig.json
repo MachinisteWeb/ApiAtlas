@@ -1,8 +1,5 @@
 {
 	"headers": { "Access-Control-Allow-Origin": "*" },
-	"staticOptions": {
-        "maxAge": 0
-    },
 	"getSupport": false,
 	"postSupport": false,
  	"urlRelativeSubPath": "api/",
