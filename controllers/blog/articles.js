@@ -10,7 +10,7 @@ website.components = {};
 	website.components.markdownRender = require('../modules/markdown-render');
 	website.components.extendedFormatDate = require('../modules/extended-format-date');
 
-	publics.changeVariation = function (params, mainCallback) {
+	publics.changeVariation = function (params, next) {
 		var NA = this,
 			variation = params.variation,
 			mongoose = NA.modules.mongoose,
@@ -32,7 +32,7 @@ website.components = {};
 
 			variation.specific = listOfArticles;
 
-			mainCallback(variation);
+			next(variation);
 		});
 	};
 

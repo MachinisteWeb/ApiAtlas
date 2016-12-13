@@ -19,7 +19,7 @@
     "cookie": "0.1.2",
     "connect-redis": "2.1.x",
     "marked": "0.3.x",
-    "mongoose": "3.8.x",
+    "mongoose": "4.6.x",
     "guid": "0.0.12"
   },
   "engines": {

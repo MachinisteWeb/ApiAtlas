@@ -6,7 +6,7 @@ exports.changeVariation = function (params, next) {
 
 	http.get({
   		hostname: "localhost",
-	  	port: 7765,
+	  	port: NA.webconfig.httpPort,
 	  	path: "/api/comments/",
 	  	agent: false
 	}, function (response) {

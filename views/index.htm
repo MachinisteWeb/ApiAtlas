@@ -208,7 +208,7 @@ exports.changeVariation = function (params, mainCallback) {
             hljs.initHighlightingOnLoad();
             function getAll() {
                 var xhr = new XMLHttpRequest();
-                xhr.open('GET', 'http://www.lesieur.name/api/comments/', true);
+                xhr.open('GET', 'https://www.lesieur.name/api/comments/', true);
                 xhr.addEventListener("readystatechange", function () {
                     var commentsArea = document.getElementsByClassName("comments")[0],
                         comments;

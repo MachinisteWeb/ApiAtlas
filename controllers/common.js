@@ -12,10 +12,9 @@ website.components = {};
 		var NA = this,
 			path = NA.modules.path;
 
-		NA.modules.cookie = require('cookie');
+		NA.modules.marked = require('marked');
 		NA.modules.mongoose = require('mongoose');
 		NA.modules.RedisStore = require('connect-redis');
-		NA.modules.marked = require('marked');
 		NA.modules.guid = require('guid');
 		NA.modules.common = require(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, 'common.json'));
 	};
@@ -24,10 +23,9 @@ website.components = {};
 		var NA = this,
 			mongoose = NA.modules.mongoose;
 
-		//website.components.mongoose.initialisation(mongoose, 'mongodb://127.0.0.1:27017/blog', function (mongoose) {
-			publics.mongooseSchemas(mongoose);
+		website.components.mongoose.initialisation(mongoose, 'mongodb://127.0.0.1:27017/blog', function () {
 			next();
-		//});
+		});
 	};
 
 	publics.mongooseSchemas = function (mongoose) {
@@ -42,10 +40,13 @@ website.components = {};
 
 	publics.setSessions = function (next) {
         var NA = this,
+			mongoose = NA.modules.mongoose,
         	session = NA.modules.session,
         	RedisStore = NA.modules.RedisStore(session);
 
         NA.sessionStore = new RedisStore();
+
+		publics.mongooseSchemas(mongoose);
 
 		next();
 	};
@@ -55,4 +56,3 @@ website.components = {};
 exports.setModules = website.setModules;
 exports.setSessions = website.setSessions;
 exports.setConfigurations = website.setConfigurations;
-exports.changeVariation = website.changeVariation;
