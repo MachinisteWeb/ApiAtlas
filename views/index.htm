@@ -162,9 +162,9 @@ xhr.send(null);</code></pre>
                     <p>`GET http://www.lesieur.name/api/comments/` </p>
                     <h4>Code</h4>
                     <pre><code class="js">/* jslint node: true, esversion: 6 */
-exports.changeVariation = function (params, mainCallback) {
+exports.changeVariations = function (params, next) {
     var NA = this,
-        variation = params.variation,
+        variations = params.variations,
         http = NA.modules.http,
         result = "";
 
@@ -186,12 +186,12 @@ exports.changeVariation = function (params, mainCallback) {
                 &lt;/div&gt;`;
             });
 
-            variation.comments = result;
-            mainCallback(variation);
+            variations.comments = result;
+            next(variations);
         });
     }).on('error', function () {
-        variation.comments = "";
-        mainCallback(variation);
+        variations.comments = "";
+        next(variations);
     });
 };</code></pre>
                     <h4>Result</h4>

@@ -1,7 +1,7 @@
 /* jslint node: true, esversion: 6 */
-exports.changeVariation = function (params, next) {
+exports.changeVariations = function (params, next) {
 	var NA = this,
-		variation = params.variation,
+		variations = params.variations,
 		http = NA.modules.http;
 
 	http.get({
@@ -26,11 +26,11 @@ exports.changeVariation = function (params, next) {
 					</p>
 				</li>`;
 			});
-			variation.comments = chain;
-			next(variation);
+			variations.comments = chain;
+			next(variations);
 		});
 	}).on('error', function () {
-		variation.comments = "";
-		next(variation);
+		variations.comments = "";
+		next(variations);
 	});
 };

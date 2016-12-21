@@ -1,21 +1,21 @@
 /* jslint node: true */
-exports.changeVariation = function (params, next) {
+exports.changeVariations = function (params, next) {
 	var NA = this,
-		variation = params.variation,
+		variations = params.variations,
 		response = params.response,
 		item;
 
-	if (variation.params && variation.params.id) {
-		item = [].filter.call(variation.specific, function (item) {
-			return item.id === variation.params.id;
+	if (variations.params && variations.params.id) {
+		item = [].filter.call(variations.specific, function (item) {
+			return item.id === variations.params.id;
 		});
 		if (item.length !== 0) {
-			variation.specific = item[0];
+			variations.specific = item[0];
 		} else {
-			variation.currentRouteParameters.statusCode = 302;
+			variations.routeParameters.statusCode = 302;
 			response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 		}
 	}
 
-	next(variation);
+	next(variations);
 };

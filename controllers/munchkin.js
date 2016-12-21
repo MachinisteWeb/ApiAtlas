@@ -1,18 +1,18 @@
 /* jslint node: true */
-exports.changeVariation = function (params, next) {
+exports.changeVariations = function (params, next) {
 	var NA = this,
-		variation = params.variation,
+		variations = params.variations,
 		response = params.response;
 
 	function redirect() {
-		variation.currentRouteParameters.statusCode = 302;
+		variations.routeParameters.statusCode = 302;
 		response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 	}
 
 	function check(param, callback) {
-		if (variation.params[param]) {
-			if (variation.specific[variation.params[param]]) {
-				variation.specific = variation.specific[variation.params[param]];
+		if (variations.params[param]) {
+			if (variations.specific[variations.params[param]]) {
+				variations.specific = variations.specific[variations.params[param]];
 			} else {
 				redirect();
 			}
@@ -22,7 +22,7 @@ exports.changeVariation = function (params, next) {
 		}
 	}
 
-	if (variation.params) {
+	if (variations.params) {
 		check("game", function () {
 			check("stack", function () {
 				check("type");
@@ -30,5 +30,5 @@ exports.changeVariation = function (params, next) {
 		});
 	}
 
-	next(variation);
+	next(variations);
 };

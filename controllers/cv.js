@@ -1,17 +1,17 @@
 /* jslint node: true */
-exports.changeVariation = function (params, next) {
+exports.changeVariations = function (params, next) {
 	var NA = this,
-		variation = params.variation,
+		variations = params.variations,
 		response = params.response;
 
-	if (variation.params && variation.params.subpart) {
-		if (variation.specific[variation.params.subpart]) {
-		variation.specific = variation.specific[variation.params.subpart];
+	if (variations.params && variations.params.subpart) {
+		if (variations.specific[variations.params.subpart]) {
+		variations.specific = variations.specific[variations.params.subpart];
 		} else {
-			variation.currentRouteParameters.statusCode = 302;
+			variations.routeParameters.statusCode = 302;
 			response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 		}
 	}
 
-	next(variation);
+	next(variations);
 };

@@ -1,31 +1,31 @@
 /* jslint node: true */
-exports.changeVariation = function (params, next) {
+exports.changeVariations = function (params, next) {
 	var NA = this,
 		fs = NA.modules.fs,
 		path = NA.modules.path,
-		variation = params.variation,
+		variations = params.variations,
 		response = params.response,
 		position = -1;
 
 	function error () {
-		variation.currentRouteParameters.statusCode = 302;
+		variations.routeParameters.statusCode = 302;
 		response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 	}
 
-	if (variation.params && variation.params.id) {
-		[].forEach.call(variation.specific, function (item, i) {
-			if (item.id === variation.params.id) {
+	if (variations.params && variations.params.id) {
+		[].forEach.call(variations.specific, function (item, i) {
+			if (item.id === variations.params.id) {
 				position = i;
 			}
 		});
 		if (position === -1) {
 			error();
 		}
-		variation.specific.splice(position, 1);
-		fs.writeFile(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(variation.specific, null, "    "));
+		variations.specific.splice(position, 1);
+		fs.writeFile(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(variations.specific, null, "    "));
 	} else {
 		error();
 	}
 
-	next(variation);
+	next(variations);
 };

@@ -2,13 +2,13 @@ var website = website || {};
 
 website.module = website.module || {};
 
-website.module.extendedFormatDate = function (date, variation) {
+website.module.extendedFormatDate = function (date, variations) {
 	var format = {},
 		minute = date.getMinutes(),
 		hour = date.getHours(),
 		day = date.getDate(),
 		month = date.getMonth() + 1,
-		fullMonth = variation.months[date.getMonth()],
+		fullMonth = variations.months[date.getMonth()],
 		fullYear = date.getFullYear();
 
 	minute = ((minute.toString().length > 1) ? '' : '0') + minute;
@@ -17,13 +17,13 @@ website.module.extendedFormatDate = function (date, variation) {
 	month = ((month.toString().length > 1) ? '' : '0') + month;
 
 	format.string = 
-		variation.toDate + " " +
+		variations.toDate + " " +
 		day + " " +
 		fullMonth + " " +
 		fullYear + " " +
-		variation.toHour + " " +
+		variations.toHour + " " +
 		hour +
-		variation.unitHours +
+		variations.unitHours +
 		minute;
 
 	format.time = 
