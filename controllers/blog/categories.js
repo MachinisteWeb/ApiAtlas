@@ -8,17 +8,16 @@ website.components = {};
 
 	website.components.treeOfCategories = require('../modules/tree-of-categories');
 
-	publics.changeVariations = function (params, next) {
+	publics.changeVariations = function (next, locals) {
 		var NA = this,
-			variations = params.variations,
 			mongoose = NA.modules.mongoose,
 			Category = mongoose.model('category');
 
 		website.components.treeOfCategories(Category, function (treeOfCategories) {
 
-			variations.specific = treeOfCategories;
+			locals.specific = treeOfCategories;
 
-			next(variations);
+			next();
 		});
 	};
 

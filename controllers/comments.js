@@ -1,21 +1,19 @@
 /* jslint node: true */
-exports.changeVariations = function (params, next) {
+exports.changeVariations = function (next, locals, request, response) {
 	var NA = this,
-		variations = params.variations,
-		response = params.response,
 		item;
 
-	if (variations.params && variations.params.id) {
-		item = [].filter.call(variations.specific, function (item) {
-			return item.id === variations.params.id;
+	if (locals.params && locals.params.id) {
+		item = [].filter.call(locals.specific, function (item) {
+			return item.id === locals.params.id;
 		});
 		if (item.length !== 0) {
-			variations.specific = item[0];
+			locals.specific = item[0];
 		} else {
-			variations.routeParameters.statusCode = 302;
+			locals.routeParameters.statusCode = 302;
 			response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 		}
 	}
 
-	next(variations);
+	next();
 };
