@@ -3,88 +3,88 @@
 		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "comments.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/comments/:idput/": {
 		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "update-comment.js",
-		"putSupport": true,
+		"put": true,
         "mimeType": "application/json"
 	},
 	"/comments/:id/": {
 		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "delete-comment.js",
-		"deleteSupport": true,
+		"delete": true,
         "mimeType": "application/json"
 	},
 	"/comments/": {
 		"view": "default.htm",
 		"variation": "comments.json",
 		"controller": "create-comment.js",
-		"postSupport": true,
+		"post": true,
         "mimeType": "application/json"
 	},
 	"/cv/(:subpart/)?": {
 		"view": "default.htm",
 		"variation": "cv.json",
 		"controller": "cv.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/games/munchkin-cthulhu/(:game/)?(:stack/)?(:type/)?": {
 		"view": "default.htm",
 		"variation": "munchkin-cthulhu.json",
 		"controller": "munchkin.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/games/star-munchkin/(:game/)?(:stack/)?(:type/)?": {
 		"view": "default.htm",
 		"variation": "star-munchkin.json",
 		"controller": "munchkin.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/games/super-munchkin/(:game/)?(:stack/)?(:type/)?": {
 		"view": "default.htm",
 		"variation": "super-munchkin.json",
 		"controller": "munchkin.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/games/munchkin-zombies/(:game/)?(:stack/)?(:type/)?": {
 		"view": "default.htm",
 		"variation": "munchkin-zombies.json",
 		"controller": "munchkin.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/games/munchkin/(:game/)?(:stack/)?(:type/)?": {
 		"view": "default.htm",
 		"variation": "munchkin.json",
 		"controller": "munchkin.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/blog/articles/": {
 		"view": "default.htm",
 		"controller": "blog/articles.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/blog/categories/": {
 		"view": "default.htm",
 		"controller": "blog/categories.js",
-		"getSupport": true,
+		"get": true,
         "mimeType": "application/json"
 	},
 	"/": {
 		"view": "index.htm",
 		"controller": "index.js",
-		"getSupport": true,
+		"get": true,
 		"headers": { "Access-Control-Allow-Origin": false }
 	},
 	"/page-inexistante/": {
