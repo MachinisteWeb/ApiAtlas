@@ -1,10 +1,10 @@
 {
 	"headers": { "Access-Control-Allow-Origin": "*" },
-	"getSupport": false,
-	"postSupport": false,
+	"get": false,
+	"post": false,
  	"urlRelativeSubPath": "api/",
- 	"commonController": "common.js",
- 	"commonVariation": "common.json",
+ 	"controller": "common.js",
+ 	"variation": "common.json",
  	"pageNotFound": "/page-inexistante/",
 	"routes": "routes.json"
 }
