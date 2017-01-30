@@ -15,7 +15,7 @@ website.components = {};
 		NA.modules.marked = require('marked');
 		NA.modules.mongoose = require('mongoose');
 		NA.modules.RedisStore = require('connect-redis');
-		NA.modules.guid = require('guid');
+		NA.modules.uuid = require('uuid');
 		NA.modules.common = require(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, 'common.json'));
 	};
 

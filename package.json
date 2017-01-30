@@ -8,10 +8,7 @@
     "type": "git",
     "url": "https://github.com/Haeresis/ApigAtlas.git"
   },
-  "license": {
-    "type": "GPL-2.0",
-    "url": "https://github.com/Haeresis/ApigAtlas/LICENSE"
-  },
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/Haeresis/ApigAtlas/issues"
   },
@@ -20,7 +17,7 @@
     "connect-redis": "2.1.x",
     "marked": "0.3.x",
     "mongoose": "4.6.x",
-    "guid": "0.0.12"
+    "node-uuid": "1.4.x"
   },
   "engines": {
     "node": ">=0.10.10"
