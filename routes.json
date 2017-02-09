@@ -1,95 +1,109 @@
-{
-	"/comments/(:id/)?": {
-		"view": "default.htm",
-		"variation": "comments.json",
-		"controller": "comments.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/comments/:idput/": {
-		"view": "default.htm",
-		"variation": "comments.json",
-		"controller": "update-comment.js",
-		"put": true,
-        "mimeType": "application/json"
-	},
-	"/comments/:id/": {
-		"view": "default.htm",
-		"variation": "comments.json",
-		"controller": "delete-comment.js",
-		"delete": true,
-        "mimeType": "application/json"
-	},
-	"/comments/": {
-		"view": "default.htm",
-		"variation": "comments.json",
-		"controller": "create-comment.js",
-		"post": true,
-        "mimeType": "application/json"
-	},
-	"/cv/(:subpart/)?": {
-		"view": "default.htm",
-		"variation": "cv.json",
-		"controller": "cv.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/games/munchkin-cthulhu/(:game/)?(:stack/)?(:type/)?": {
-		"view": "default.htm",
-		"variation": "munchkin-cthulhu.json",
-		"controller": "munchkin.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/games/star-munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"view": "default.htm",
-		"variation": "star-munchkin.json",
-		"controller": "munchkin.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/games/super-munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"view": "default.htm",
-		"variation": "super-munchkin.json",
-		"controller": "munchkin.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/games/munchkin-zombies/(:game/)?(:stack/)?(:type/)?": {
-		"view": "default.htm",
-		"variation": "munchkin-zombies.json",
-		"controller": "munchkin.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/games/munchkin/(:game/)?(:stack/)?(:type/)?": {
-		"view": "default.htm",
-		"variation": "munchkin.json",
-		"controller": "munchkin.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/blog/articles/": {
-		"view": "default.htm",
-		"controller": "blog/articles.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/blog/categories/": {
-		"view": "default.htm",
-		"controller": "blog/categories.js",
-		"get": true,
-        "mimeType": "application/json"
-	},
-	"/": {
-		"view": "index.htm",
-		"controller": "index.js",
-		"get": true,
-		"headers": { "Access-Control-Allow-Origin": false }
-	},
-	"/page-inexistante/": {
-		"redirect": "/",
-		"statusCode": 302,
-		"headers": { "Access-Control-Allow-Origin": false }
-	}
-}
+[{
+	"url": "/comments/(:id/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "comments.json",
+	"controller": "comments.js",
+    "mimeType": "application/json",
+    "headers": { "Link": "</api/comments/>; rel=collection" }
+}, {
+	"url": "/comments/",
+	"post": true,
+	"view": "default.htm",
+	"variation": "comments.json",
+	"controller": "create-comment.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/comments/:id/",
+	"post": true,
+	"statusCode": 405,
+	"variation": "error.json",
+	"view": "default.htm",
+	"headers": { "Allow": "GET, UPDATE, DELETE" }
+}, {
+	"url": "/comments/:id/",
+	"put": true,
+	"view": "default.htm",
+	"variation": "comments.json",
+	"controller": "update-comment.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/comments/:id/",
+	"delete": true,
+	"view": "default.htm",
+	"variation": "comments.json",
+	"controller": "delete-comment.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/cv/(:subpart/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "cv.json",
+	"controller": "cv.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/games/munchkin-cthulhu/(:game/)?(:stack/)?(:type/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "munchkin-cthulhu.json",
+	"controller": "munchkin.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/games/star-munchkin/(:game/)?(:stack/)?(:type/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "star-munchkin.json",
+	"controller": "munchkin.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/games/super-munchkin/(:game/)?(:stack/)?(:type/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "super-munchkin.json",
+	"controller": "munchkin.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/games/munchkin-zombies/(:game/)?(:stack/)?(:type/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "munchkin-zombies.json",
+	"controller": "munchkin.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/games/munchkin/(:game/)?(:stack/)?(:type/)?",
+	"get": true,
+	"view": "default.htm",
+	"variation": "munchkin.json",
+	"controller": "munchkin.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/blog/articles/",
+	"get": true,
+	"view": "default.htm",
+	"controller": "blog/articles.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/blog/categories/",
+	"get": true,
+	"view": "default.htm",
+	"controller": "blog/categories.js",
+    "mimeType": "application/json"
+}, {
+	"url": "/",
+	"get": true,
+	"view": "index.htm",
+	"controller": "index.js"
+}, {
+	"url": "/*",
+	"post": true,
+	"put": true,
+	"delete": true,
+	"statusCode": 405,
+	"variation": "error.json",
+	"view": "default.htm",
+	"headers": { "Allow": "GET" }
+}, {
+	"url": "/page-inexistante/",
+	"redirect": "/",
+	"statusCode": 302
+}]

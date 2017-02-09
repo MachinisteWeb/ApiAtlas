@@ -10,8 +10,13 @@ exports.changeVariations = function (next, locals, request, response) {
 		if (item.length !== 0) {
 			locals.specific = item[0];
 		} else {
-			locals.routeParameters.statusCode = 302;
-			response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
+			response.statusCode = 404;
+			locals.specific = {
+				error: {
+					code: 404,
+					message: "Not Found"
+				}
+			};
 		}
 	}
 

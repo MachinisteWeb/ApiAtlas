@@ -1,0 +1,7 @@
+{
+	"error": {
+		"code": "405",
+		"message": "Method Not Allowed",
+		"description": "See 'Allow' headers for more details."
+	}
+}

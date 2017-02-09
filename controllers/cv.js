@@ -6,7 +6,7 @@ exports.changeVariations = function (next, locals, request, response) {
 		if (locals.specific[locals.params.subpart]) {
 		locals.specific = locals.specific[locals.params.subpart];
 		} else {
-			locals.routeParameters.statusCode = 302;
+			response.statusCode = 302;
 			response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
 		}
 	}

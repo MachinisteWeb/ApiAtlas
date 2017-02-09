@@ -5,25 +5,27 @@ exports.changeVariations = function (next, locals, request, response) {
 		path = NA.modules.path,
 		position = -1;
 
-	function error () {
-		locals.routeParameters.statusCode = 302;
-		response.setHeader("Location", NA.webconfig.urlRelativeSubPath);
-	}
-
-	if (locals.params && locals.params.id) {
-		[].forEach.call(locals.specific, function (item, i) {
-			if (item.id === locals.params.id) {
-				position = i;
-			}
-		});
-		if (position === -1) {
-			error();
+	[].forEach.call(locals.specific, function (item, i) {
+		if (item.id === locals.params.id) {
+			position = i;
 		}
+	});
+	if (position !== -1) {
 		locals.specific.splice(position, 1);
-		fs.writeFile(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(locals.specific, null, "    "));
+		fs.writeFile(path.join(NA.serverPath, NA.webconfig.variationsRelativePath, "comments.json"), JSON.stringify(locals.specific, null, "    "), function () {
+			response.statusCode = 204;
+			response.setHeader("Content-Length", 0);
+			response.end();
+		});
 	} else {
-		error();
-	}
+		response.statusCode = 404;
+		locals.specific = {
+			error: {
+				code: 404,
+				message: "Not Found"
+			}
+		};
 
-	next();
+		next();
+	}
 };
