@@ -12,6 +12,8 @@ website.components = {};
 		var NA = this,
 			path = NA.modules.path;
 
+		NA.utils = {};
+		NA.utils.comments = require("./modules/comments/utils.js");
 		NA.modules.marked = require('marked');
 		NA.modules.mongoose = require('mongoose');
 		NA.modules.RedisStore = require('connect-redis');

@@ -14,6 +14,20 @@
 	"controller": "create-comment.js",
     "mimeType": "application/json"
 }, {
+	"url": "/comments/",
+	"put": true,
+	"statusCode": 405,
+	"variation": "error.json",
+	"view": "default.htm",
+	"headers": { "Allow": "GET, POST" }
+}, {
+	"url": "/comments/",
+	"delete": true,
+	"statusCode": 405,
+	"variation": "error.json",
+	"view": "default.htm",
+	"headers": { "Allow": "GET, POST" }
+}, {
 	"url": "/comments/:id/",
 	"post": true,
 	"statusCode": 405,
