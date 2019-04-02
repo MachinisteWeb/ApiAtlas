@@ -13,10 +13,10 @@
     "url": "https://github.com/Haeresis/ApigAtlas/issues"
   },
   "dependencies": {
-    "connect-redis": "2.1.x",
+    "connect-redis": "^3.4.1",
     "cookie": "0.1.2",
     "marked": "0.3.x",
-    "mongoose": "4.6.x",
+    "mongoose": "^5.4.20",
     "node-uuid": "1.4.x",
     "uuid-validate": "0.0.2"
   },
