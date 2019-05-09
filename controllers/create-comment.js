@@ -3,7 +3,7 @@ exports.changeVariations = function (next, locals, request, response) {
 	var NA = this,
 		uuid = NA.modules.uuid;
 
-	NA.utils.comments.createItem.call(NA, uuid.v1(), request.body.message, locals, function (err, item) {
+	NA.utils.comments.createItem.call(NA, uuid(), request.body.message, locals, function (err, item) {
 		if (err) {
 			response.statusCode = 400;
 			return next();
