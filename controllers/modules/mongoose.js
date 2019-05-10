@@ -6,7 +6,7 @@ var website = {};
 
     publics.initialisation = function (mongoose, address, callback) {
         mongoose.Promise = global.Promise;
-        mongoose.connect(address, function (error) {
+        mongoose.connect(address, { useNewUrlParser: true }, function (error) {
             if (error) {
                 console.log("La base '" + address + "' n'est pas accessible.");
                 process.kill(process.pid);
@@ -23,7 +23,7 @@ var website = {};
             console.log('Déconnexion de Mongoose.');
         });
 
-        process.on('SIGINT', function (error) {
+        process.on('SIGINT', function () {
             mongoose.connection.close(function () {
                 console.log('Déconnexion de Mongoose en raison de l\'arrêt de l\'app.');
                 process.exit(0);
