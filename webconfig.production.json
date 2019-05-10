@@ -1,0 +1,14 @@
+{
+	"cache": true,
+	"httpPort": 7765,
+	"httpHostname": "www.lesieur.name",
+ 	"urlPort": 443,
+ 	"httpSecure": true,
+	"get": false,
+	"post": false,
+ 	"urlRelativeSubPath": "api/",
+ 	"controller": "common.js",
+ 	"variation": "common.json",
+  	"pageNotFound": "/page-inexistante/",
+	"routes": "routes.json"
+}
