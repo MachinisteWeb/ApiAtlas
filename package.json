@@ -5,7 +5,7 @@
   "description": "Exemple d'API distante REST avec NodeAtlas.",
   "private": false,
   "scripts": {
-    "start": "node blog.lesieur.name.na"
+    "start": "node www.lesieur.name.api.na"
   },
   "repository": {
     "type": "git",
