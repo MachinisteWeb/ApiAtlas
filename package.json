@@ -20,7 +20,7 @@
     "connect-redis": "^3.4.1",
     "cookie": "^0.3.1",
     "marked": "^0.6.2",
-    "mongoose": "^5.5.7",
+    "mongoose": "^5.7.5",
     "uuid": "^3.3.2",
     "uuid-validate": "^0.0.3"
   },
