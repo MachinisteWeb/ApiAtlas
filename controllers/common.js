@@ -16,6 +16,7 @@ website.components = {};
 		NA.utils.comments = require("./modules/comments/utils.js");
 		NA.modules.marked = require('marked');
 		NA.modules.mongoose = require('mongoose');
+		NA.modules.redis = require('redis');
 		NA.modules.RedisStore = require('connect-redis');
 		NA.modules.uuid = require('uuid/v1');
 		NA.modules.isUuid = require('uuid-validate');
@@ -45,9 +46,14 @@ website.components = {};
         var NA = this,
 			mongoose = NA.modules.mongoose,
         	session = NA.modules.session,
+			redis = NA.modules.redis,
         	RedisStore = NA.modules.RedisStore(session);
 
-        NA.sessionStore = new RedisStore();
+		var redisClient = redis.createClient()
+		redisClient.unref()
+		redisClient.on('error', console.log)
+
+        NA.sessionStore = new RedisStore({ client: redisClient });
 
 		publics.mongooseSchemas(mongoose);
 

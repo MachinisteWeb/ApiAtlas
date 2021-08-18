@@ -16,11 +16,12 @@
     "url": "https://github.com/Haeresis/ApigAtlas/issues"
   },
   "dependencies": {
-    "node-atlas": "^2.0.7",
-    "connect-redis": "^3.4.1",
+    "connect-redis": "^6.0.0",
     "cookie": "^0.3.1",
-    "marked": "^0.6.2",
-    "mongoose": "^5.5.7",
+    "marked": "^0.8.2",
+    "mongoose": "^5.13.7",
+    "node-atlas": "^2.0.8",
+    "redis": "^3.1.2",
     "uuid": "^3.3.2",
     "uuid-validate": "^0.0.3"
   },
