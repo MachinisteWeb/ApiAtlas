@@ -2,7 +2,7 @@
 
 Version : 0.2
 
-NodeAtlas Version minimale : 2.0.x
+NodeAtlas Version minimale : 2.0.8
 
 **For an international version of this README.md, [see below](#international-version).**
 
@@ -54,13 +54,13 @@ ou lancez `server.na` en double cliquant dessus :
 
 Le site sera accessible ici :
 
-- *http://localhost:7765/*
+- *http://localhost:7765/api/*
 
 
 
 ## Exemple en ligne ##
 
-Vous pouvez voir fonctionner ce repository à l'adresse : [http://www.lesieur.name/api/](http://www.lesieur.name/api/).
+Vous pouvez voir fonctionner ce repository à l'adresse : [https://www.lesieur.name/api/](https://www.lesieur.name/api/).
 
 
 
@@ -116,10 +116,10 @@ or run `app.na` by double clicking and:
 
 The website will be to:
 
-- *http://localhost:7765/*
+- *http://localhost:7765/api/*
 
 
 
 ### Online Example ###
 
-You can see this repository running at: [http://www.lesieur.name/api/](http://www.lesieur.name/api/).
+You can see this repository running at: [https://www.lesieur.name/api/](https://www.lesieur.name/api/).
