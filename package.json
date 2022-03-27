@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Haeresis/ApigAtlas.git"
+    "url": "https://github.com/MachinisteWeb/ApigAtlas.git"
   },
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/Haeresis/ApigAtlas/issues"
+    "url": "https://github.com/MachinisteWeb/ApigAtlas/issues"
   },
   "dependencies": {
     "connect-redis": "^6.0.0",
